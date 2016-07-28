@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="IconCompareBase" file="图标对照表.xlsm">
+		<key code="dwID" />
+		<key code="dwType" />
+		<field type="uint32" column="ID" code="dwID" />
+		<field type="uint32" column="类型" code="dwType" />
+		<field type="string" column="名称" code="strname" />
+		<field type="string" column="图标" code="dwIcon" />
+		<field type="uint32" column="大图标组" code="dwBigIconGrp" />
+		<field type="uint32" column="小图标组" code="dwSmallIconGrp" />
+		<field type="string" column="图集" code="dwIconAtlas" default="Atlases/ItemIcon" />
+	</output>
+</table>

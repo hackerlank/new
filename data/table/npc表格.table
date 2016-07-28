@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="NpcDataBase" file="Npc表格.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="编号" code="dwID" />
+		<field type="uint32" column="颜色" code="dwNameColor" />
+		<field type="string" column="名称" code="strName" />
+		<field type="string" column="子名称" code="strSubName" />
+		<field type="uint32" column="是否可访问" code="dwVisitType" />
+		<field type="uint32" column="是否可攻击" code="dwAttackType" />
+		<field type="uint32" column="是否可选中" code="dwCanBeSelect" />
+		<field type="uint32" column="信息显示" code="dwShowType" />
+		<field type="uint32" column="移动速度" code="dwWalkSpeed" />
+		<field type="uint32" column="奔跑速度" code="dwRunSpeed" />
+		<field type="uint32" column="生命值" code="dwBaseLife" />
+		<field type="uint32" column="物理防御" code="dwBaseDefine" />
+		<field type="uint32" column="物理攻击" code="dwBaseAttack" />
+		<field type="string" column="动作文件夹" code="strAniDir" />
+		<field type="uint32" column="访问距离" code="dwCallDis" />
+		<field type="string" column="访问动作" code="strCallAction" />
+		<field type="uint32" column="待机时间" code="dwResetDirectionTime" />
+		<field type="uint32" column="模型ID" code="dwModelSet" />
+		<field type="uint32" column="类型" code="dwType" />
+		<field type="uint32" column="怪物类型" code="dwMonsterType" />
+		<field type="uint32" column="等级" code="dwLevel" />
+		<field type="string" column="攻击发声" code="strAttackSound" />
+		<field type="string" column="被击发声" code="strUnderAttackSound" />
+		<field type="string" column="空闲发声" code="strIdleSound" />
+		<field type="uint32" column="临死发声" code="dwDyingSound" />
+		<field type="string" column="点击语音" code="strFunNpcClickSound" />
+		<field type="string" column="出生特效" code="strBirthMagic" />
+		<field type="string" column="出生特效绑定点" code="strBirthMagicLink" />
+		<field type="uint32" column="出生特效持续时间" code="dwBirthMagicLife" />
+		<field type="uint32" column="出生音效" code="dwBirthMagicSoundID" />
+		<field type="uint32" column="出生音效延迟" code="dwBirthMagicSoundDelay" />
+		<field type="string" column="死亡特效" code="strDeathMagic" />
+		<field type="string" column="死亡特效绑定点" code="strDeathMagicLink" />
+		<field type="uint32" column="死亡特效持续时间" code="dwDeathMagicLife" />
+		<field type="uint32" column="死亡音效" code="dwDeathMagicSoundID" />
+		<field type="uint32" column="死亡音效延迟" code="dwDeathMagicSoundDelay" />
+		<field type="uint32" column="移动音效" code="dwMovingSound" />
+		<field type="uint32" column="静止音效" code="dwStandingSound" />
+		<field type="uint32" column="模型被攻击范围" code="dwModelArea" />
+		<field type="float" column="旋转速度X" code="fRotateX" />
+		<field type="float" column="旋转速度Y" code="fRotateY" />
+		<field type="float" column="旋转速度Z" code="fRotateZ" />
+		<field type="string" column="描述" code="strDesc" />
+		<field type="float" column="碰撞框缩放X" code="fColAABBScaleX" />
+		<field type="float" column="碰撞框缩放Y" code="fColAABBScaleY" />
+		<field type="float" column="碰撞框缩放Z" code="fColAABBScaleZ" />
+		<field type="string" column="任务头像" code="questNpcHeadIcon" />
+		<field type="uint32" column="模型半径" code="modelrange" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="NpcDataBase" file="Npc表格.xlsm">
+		<key code="id" />
+		<field type="uint32" code="id" column="编号" />
+		<field type="string" size="32" code="name" column="名称" />
+		<field type="uint32" code="level" column="等级" />
+		<field type="uint32" code="monstertype" column="怪物类型" />
+		<field type="uint32" code="visterange" column="访问距离" />
+		<field type="string" size="128" code="skills" column="技能">
+			<regex><![CDATA[^0?|(\d+(-\d+)*)$]]></regex>
+		</field>
+		<field type="uint32" code="npcai" column="AI" />
+		<field type="uint32" code="maxhp" column="生命值" />
+		<field type="uint32" code="exp" column="经验值" />
+		<field type="uint32" code="lookrange" column="视野" />
+		<field type="uint32" code="mvspd" column="移动速度" />
+		<field type="uint32" code="rushspd" column="奔跑速度" />
+		<field type="uint32" code="attspd" column="攻击速度" />
+		<field type="uint32" code="blocktype" column="阻挡类型" />
+		<field type="uint32" code="pdef" column="物理防御" />
+		<field type="uint32" code="mdef" column="化学防御" />
+		<field type="uint32" code="pdam" column="物理攻击" />
+		<field type="uint32" code="mdam" column="化学攻击" />
+		<field type="uint32" code="bdam" column="生化攻击" />
+		<field type="uint32" code="hdam" column="热能攻击" />
+		<field type="uint32" code="wdam" column="声波攻击" />
+		<field type="uint32" code="ldam" column="光波攻击" />
+		<field type="uint32" code="bdef" column="生化防御" />
+		<field type="uint32" code="hdef" column="热能防御" />
+		<field type="uint32" code="wdef" column="声波防御" />
+		<field type="uint32" code="ldef" column="光波防御" />
+		<field type="uint32" code="visit" column="是否可访问" />
+		<field type="uint32" code="attack" column="是否可攻击" />
+		<field type="uint32" code="outputmode" column="产出惩罚" />
+		<field type="uint32" code="phit" column="物理命中" />
+		<field type="uint32" code="mhit" column="化学命中" />
+		<field type="uint32" code="force" column="重击几率" />
+		<field type="uint32" code="hide" column="闪避几率" />
+		<field type="uint32" code="ignore" column="忽视几率" />
+		<field type="uint32" code="type" column="类型" />
+		<field type="uint32" code="bonetime" column="死亡特效持续时间" />
+		<field type="string" size="128" code="randtalk" column="随机说话" />
+		<field type="string" size="128" code="atttalk" column="攻击说话" />
+		<field type="string" size="128" code="deadtalk" column="死亡说话" />
+		<field type="string" size="128" code="targettalk" column="发现目标说话" />
+		<field type="uint32" code="freshdemon" column="刷新奇异兽" />
+		<field type="string" size="128" code="deathrefresh" column="刷蓝色精英" />
+		<field type="uint32" code="relive" column="不重生" />
+		
+		<field type="uint32" code="modelrange" column="模型半径" />
+	</output>
+</table>

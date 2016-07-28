@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="WeaponActionDataBase" file="武器动作表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="武器子类型" code="dwID" />
+		<field type="string" column="武器待机类型" code="strWeaponIdle" />
+		<field type="string" column="武器攻击待机类型" code="strWeaponAttIdle" />
+		<field type="string" column="武器站立类型" code="strWeaponStand" />
+		<field type="string" column="武器跑步类型" code="strWeaponRun" />
+		<field type="string" column="武器被击类型" code="strWeaponBeiji" />
+		<field type="string" column="武器半身被击类型" code="strWeaponBeijiHalf" />
+		<field type="string" column="武器被击倒和跳起类型" code="strWeaponBeijiDownAndUp" />
+		<field type="string" column="武器起跳类型" code="strWeaponLaunch" />
+		<field type="string" column="武器跳跃类型" code="strWeaponJump" />
+		<field type="string" column="武器着陆站立类型" code="strWeaponLandToStand" />
+		<field type="string" column="武器着陆跑步类型" code="strWeaponLandToRun" />
+		<field type="string" column="武器死亡类型" code="strWeaponDie" />
+		<field type="uint32" column="武器取出动作时间" code="dwWeaponTakeTime" />
+		<field type="string" column="武器取出动作" code="strWeaponTake" />
+		<field type="string" column="武器半身取出动作" code="strWeaponTakeHalf" />
+		<field type="uint32" column="武器收起动作时间" code="dwWeaponBackTime" />
+		<field type="string" column="武器收起动作" code="strWeaponBack" />
+		<field type="string" column="武器半身收起动作" code="strWeaponBackHalf" />
+		<field type="string" column="武器骑乘取出动作" code="strRideWeaponTake" />
+		<field type="string" column="武器骑乘收起动作" code="strRideWeaponBack" />
+		<field type="string" column="武器骑乘被击类型" code="strRideWeaponBeiji" />
+		<field type="string" column="武器骑乘待机类型" code="strRideWeaponIdle" />
+		<field type="string" column="武器吟唱动作" code="strWeaponIntonate" />
+		<field type="string" column="武器骑乘吟唱动作" code="strRideWeaponIntonate" />
+		<field type="string" column="武器BUFF动作" code="strWeaponBuff" />
+		<field type="string" column="武器骑乘BUFF动作" code="strRideWeaponBuff" />
+		<field type="string" column="武器闪避动作" code="strWeaponShanbi" />
+		<field type="string" column="武器骑乘闪避动作" code="strRideWeaponShanbi" />
+	</output>
+</table>

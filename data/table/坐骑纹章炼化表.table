@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="HorseEquipRefinementBase" file="坐骑纹章炼化表.xlsm">
+		<key code="wdID" />
+		<key code="wdLevel" />
+		<field type="uint16" column="纹章ID" code="wdID" />
+		<field type="uint16" column="炼化等级" code="wdLevel" />
+		<field type="uint32" column="成功几率" code="dwRate" />
+		<field type="uint32" column="失败后等级" code="wdFailedLevel" />
+		<field type="uint32" column="物攻提升" code="dwPDam" />
+		<field type="uint32" column="化攻提升" code="dwMDam" />
+		<field type="uint32" column="物防提升" code="dwPDef" />
+		<field type="uint32" column="化防提升" code="dwMDef" />
+		<field type="uint32" column="生命值提升" code="dwHP" />
+		<field type="uint32" column="需要金钱" code="dwPrice" />
+		<field type="uint32" column="需要炼化强度" code="dwRefineLevel" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="HorseEquipRefinementBase" file="坐骑纹章炼化表.xlsm">
+		<key code="equipid" />
+		<key code="level" />
+		<field type="uint16" code="equipid" column="纹章ID" />
+		<field type="uint16" code="level" column="炼化等级" />
+		<field type="uint32" code="successrate" column="成功几率" />
+		<field type="uint32" code="falselevel" column="失败后等级" />
+		<field type="uint32" code="pdam" column="物攻提升" />
+		<field type="uint32" code="mdam" column="化攻提升" />
+		<field type="uint32" code="pdef" column="物防提升" />
+		<field type="uint32" code="mdef" column="化防提升" />
+		<field type="uint32" code="maxhp" column="生命值提升" />
+		<field type="uint32" code="needmoney" column="需要金钱" />
+		<field type="uint32" code="dwField10" column="需要炼化强度" />
+	</output>
+</table>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="WarShitBase" file="战争名言.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="id" code="dwID" />
+		<field type="string" column="内容" code="strcontent" />
+		<field type="string" column="作者" code="strauthor" />
+	</output>
+</table>

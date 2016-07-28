@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Zone />
+  <RelivePosition />
+  <ArmyEquipArea />
+  <NpcRect>
+    <rect id="1" width="15" height="9" x="69" y="33" />
+    <rect id="2" width="7" height="10" x="30" y="71" />
+    <rect id="3" width="5" height="3" x="30" y="68" />
+    <rect id="4" width="9" height="3" x="74" y="78" />
+    <rect id="5" width="12" height="7" x="35" y="87" />
+    <rect id="6" width="14" height="12" x="109" y="103" />
+    <rect id="7" width="7" height="3" x="36" y="111" />
+    <rect id="8" width="3" height="3" x="37" y="108" />
+  </NpcRect>
+  <Npc>
+    <npc id="10007" name="蝎子" x="77" y="38" num="23" interval="1">
+      <rect id="1" />
+    </npc>
+    <npc id="10008" name="鬣狗" x="34" y="76" num="12" interval="1">
+      <rect id="2" />
+    </npc>
+    <npc id="10008" name="鬣狗" x="33" y="70" num="3" interval="1">
+      <rect id="3" />
+    </npc>
+    <npc id="10009" name="熊" x="79" y="80" num="10" interval="1">
+      <rect id="4" />
+    </npc>
+    <npc id="10010" name="野狗" x="41" y="91" num="15" interval="1">
+      <rect id="5" />
+    </npc>
+    <npc id="10012" name="怒熊" x="116" y="109" num="30" interval="1">
+      <rect id="6" />
+    </npc>
+    <npc id="10013" name="冷血黑熊" x="40" y="113" num="6" interval="1">
+      <rect id="7" />
+    </npc>
+    <npc id="10013" name="冷血黑熊" x="39" y="110" num="4" interval="1">
+      <rect id="8" />
+    </npc>
+    <npc id="10001" name="东夷族长" x="67" y="11" num="1" angle="187" />
+    <npc id="10002" name="训练官" x="51" y="62" num="1" angle="127" />
+    <npc id="10003" name="军需官" x="57" y="63" num="1" angle="253" />
+    <npc id="10004" name="受伤的王甲" x="54" y="96" num="1" angle="130" />
+    <npc id="10005" name="巡路使" x="19" y="102" num="1" angle="164" />
+    <npc id="10006" name="自然灵蕴" x="60" y="9" num="1" angle="187" />
+    <npc id="10011" name="三七" x="72" y="105" num="1" angle="192" />
+    <npc id="5001" name="我是传送阵2" x="127" y="80" num="1" angle="127" />
+    <npc id="5002" name="我是车夫1" x="64" y="71" num="1" angle="124" />
+  </Npc>
+  <Way />
+</Map>

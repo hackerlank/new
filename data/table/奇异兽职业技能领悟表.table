@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="DemonSkillDataBase" file="奇异兽职业技能领悟表.xlsm">
+		<key code="level" />
+		<field type="uint32" code="level" column="领悟等级" />
+		<field type="string" size="2048" code="demonskill1" column="战宠领悟技能几率">
+			<regex><![CDATA[^(\d+(-\d+)*)(:\d+(-\d+)*)*$]]></regex>
+		</field>
+		<field type="string" size="2048" code="demonskill2" column="侍宠领悟技能几率">
+			<regex><![CDATA[^(\d+(-\d+)*)(:\d+(-\d+)*)*$]]></regex>
+		</field>
+		<field type="string" size="2048" code="demonskill3" column="蓝色品质">
+			<regex><![CDATA[^(\d+(-\d+)*)(:\d+(-\d+)*)*$]]></regex>
+		</field>
+		<field type="string" size="2048" code="demonskill4" column="黄色品质">
+			<regex><![CDATA[^(\d+(-\d+)*)(:\d+(-\d+)*)*$]]></regex>
+		</field>
+		<field type="string" size="2048" code="demonskill5" column="绿色品质">
+			<regex><![CDATA[^(\d+(-\d+)*)(:\d+(-\d+)*)*$]]></regex>
+		</field>
+		<field type="string" size="2048" code="demonskill6" column="紫色品质">
+			<regex><![CDATA[^(\d+(-\d+)*)(:\d+(-\d+)*)*$]]></regex>
+		</field>
+	</output>
+</table>

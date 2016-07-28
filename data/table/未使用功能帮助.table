@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="NewFunctionGuidDatabase" file="未使用功能帮助.xlsm">
+		<key code="wdIntroID" />
+		<field type="uint32" column="引导ID" code="wdIntroID" />
+		<field type="string" column="引导名称" code="strTitle" />
+		<field type="uint32" column="开启等级" code="dwNeedLevel" />
+		<field type="string" column="功能简介" code="strFunctionInfo" />
+		<field type="string" column="等级说明" code="strLevelInfo" />
+		<field type="string" column="功能特色" code="strFunctionCharacter" />
+		<field type="uint32" column="配置图片" code="dwImageID" />
+	</output>
+</table>

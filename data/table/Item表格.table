@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="道具类" type="protobuf" code="ItemDataBase" file="Item表格.xlsm">
+		<key code="itemID" />
+		<field type="uint32" column="物品ID" code="itemID" />
+		<field type="string" column="名称" code="itemName" />
+		<field type="uint16" column="道具大类" code="baseType" />
+		<field type="uint16" column="道具小类" code="subType" />
+		<field type="uint16" column="使用职业" code="useRole" />
+		<field type="uint32" column="使用等级" code="useLevel" />
+		<field type="uint32" column="叠加数量" code="overlayNum" />
+		<field type="uint32" column="买入单价" code="buyPrice" />
+		<field type="uint32" column="卖出单价" code="sellPrice" />
+		<field type="uint32" column="拥有数量上限" code="ownMax" />
+		<field type="uint16" column="物品档次" code="grade" />
+		<field type="uint16" column="品质" code="quality" />
+		<field type="uint16" column="是否可放入快捷栏" code="isShortCut" />
+		<field type="uint32" column="绑定标识位" code="bindMask" />
+		<field type="uint32" column="排序ID" code="sortID" />
+		<field type="string" column="描述" code="description" />
+		<field type="string" column="物品栏图片" code="itemIcon" />
+		<field type="string" column="掉落图片" code="dropIcon" />
+		<field type="uint32" column="掉落权限时间" code="dropLimitTime" />
+		<field type="uint32" column="掉落销毁时间" code="dropDestoryTime" />
+		<field type="uint32" column="每日使用最大次数" code="maxUseTimes" />
+	</output>
+	<output sheet="道具类" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="ItemDataBase" file="Item表格.xlsm">
+		<key code="item_id" />
+		<field type="uint32" column="物品ID" code="item_id" />
+		<field type="uint8" column="道具大类" code="base_type" />
+		<field type="uint8" column="道具小类" code="sub_type" />
+		<field type="uint8" column="使用职业" code="use_role" />
+		<field type="uint32" column="使用等级" code="use_level" />
+		<field type="uint32" column="叠加数量" code="max_num" />
+		<field type="uint32" column="买入单价" code="buy_price" />
+		<field type="uint32" column="卖出单价" code="sell_price" />
+		<field type="uint32" column="拥有数量上限" code="own_max" />
+		<field type="uint8" column="物品档次" code="grade" />
+		<field type="uint8" column="品质" code="quality" />
+		<field type="uint8" column="是否可放入快捷栏" code="is_shortcut" />
+		<field type="uint32" column="绑定标识位" code="bind_mast" />
+		<field type="uint32" column="掉落权限时间" code="drop_protecttime" />
+		<field type="uint32" column="掉落销毁时间" code="drop_deletetime" />
+		<field type="uint8" column="是否拾取同队广播" code="is_armybroad" />
+		<field type="uint8" column="是否拾取全服广播" code="is_allbroad" />
+		<field type="uint8" column="每日使用最大次数" code="max_highprop" />
+		<field type="uint8" column="作用函数ID" code="max_addprop" />	
+	</output>
+</table>

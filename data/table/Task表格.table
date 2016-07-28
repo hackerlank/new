@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="QuestDataBase" file="Task表格.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="任务编号" code="dwID" />
+		<field type="string" column="名称" code="strName" />
+		<field type="uint32" column="类型" code="dwType" />
+		<field type="uint32" column="地图" code="dwMap" />
+		<field type="uint32" column="最低等级" code="dwMinLevel" />
+		<field type="uint32" column="最高等级" code="dwMaxLevel" />
+		<field type="uint32" column="每日次数" code="dwEveyDayNum" />
+		<field type="uint32" column="前置任务" code="dwPreTask" />
+		<field type="uint32" column="接任务NPC" code="dwBeginNpc" />
+		<field type="uint32" column="采集NPC" code="dwNpcCaiJi" />
+		<field type="uint32" column="军团任务类型" code="dwArmytype" />
+		<field type="string" column="任务追踪接取" code="strTaskTraceBegin" />
+		<field type="string" column="任务追踪完成" code="strTaskTraceEnd" />
+		<field type="uint32" column="是否检索" code="dwCanSearch" />
+		<field type="uint32" column="快捷交付" code="dwCanEasyFinish" />
+		<field type="uint32" column="瞬间到达接取" code="dwHelpGoto" />
+		<field type="uint32" column="瞬间直接完成" code="dwHelpCommit" />
+		<field type="uint32" column="客户端判定任务" code="dwJudgeByClient" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="RoleTaskDataBase" file="Task表格.xlsm">
+		<key code="id" />
+		<field type="uint32" code="id" column="任务编号" />
+		<field type="string" size="32" code="name" column="名称" />
+		<field type="uint32" code="type" column="类型" />
+		<field type="uint32" code="minlevel" column="最低等级" />
+		<field type="uint32" code="maxlevel" column="最高等级" />
+		<field type="uint32" code="pretask" column="前置任务" />
+		<field type="uint32" code="begnpc" column="接任务NPC" />
+		<field type="uint32" code="endnpc" column="交任务NPC" />
+		<field type="uint32" code="operate" column="步骤总数" />
+		<field type="uint32" code="state" column="初始步骤数量" />
+		<field type="string" size="32" code="exp" column="奖励经验" />
+		<field type="string" size="512" code="awarditem" column="奖励道具">
+			<regex><![CDATA[^\s?(\{\{(\d+,){4}"(\d+-\d+(,\d+-\d+)*)?"\}(,\{(\d+,){4}"(\d+-\d+(,\d+-\d+)*)?"\})*[, ]?\})?$]]></regex>
+		</field>
+		<field type="string" size="512" code="needitem" column="任务道具">
+			<regex><![CDATA[^\s?(\{\{(\d+,){4}"(\d+-\d+(,\d+-\d+)*)?"\}(,\{(\d+,){4}"(\d+-\d+(,\d+-\d+)*)?"\})*[, ]?\})?$]]></regex>
+		</field>
+		<field type="string" size="1024" code="desc" column="任务描述" />
+		<field type="string" size="1024" code="accepttext" column="接任务文本" />
+		<field type="string" size="1024" code="finishtext" column="交任务文本" />
+		<field type="string" size="512" code="prompttext" column="不可交任务文本" />
+		<field type="uint32" code="money" column="奖励银币" />
+		<field type="uint32" code="moneyticket" column="奖励硬币" />
+		<field type="string" size="512" code="tip" column="任务提示" />
+		<field type="uint32" code="daynum" column="每日次数" />
+		<field type="string" size="128" code="materials" column="收集材料" />
+		<field type="uint32" code="challengetask" column="是否检索" />
+		<field type="uint32" code="directfinish" column="快捷交付" />
+		<field type="uint32" code="huntertask" column="狩猎任务" />
+		<field type="uint32" code="goldticket" column="奖励赠点" />
+		<field type="uint32" code="growthmedal" column="成长勋章" />
+		<field type="uint32" code="expmedal" column="历练勋章" />
+		<field type="uint32" code="warmedal" column="战争勋章" />
+		<field type="string" size="1024" code="task" column="任务内容">
+			<regex><![CDATA[^(\{[0-9a-zA-Z_]+,\s?\{\d+(,\s?\d+)*\}\})?$]]></regex>
+		</field>
+		<field type="uint32" code="helpgoto" column="瞬间到达接取" />
+		<field type="uint32" code="helpcommit" column="瞬间直接完成" />
+		<field type="uint32" code="judgebyclient" column="客户端判定任务" />
+	</output>
+</table>

@@ -1,0 +1,15 @@
+--圣光战甲
+function OnAddBuffEvent_10509(level,etype, eid,value)
+	local percent1 = 40                  -----初始
+	local percent2 = 0.2*level-0.2        -----每级提升
+	local value = percent1+percent2
+	--local percent2 = {50,48,46,44,42,40}
+	s_addValue(etype,eid,VALUE_TYPE_SUBPH,value*100)
+	s_addValue(etype,eid,VALUE_TYPE_SUBMH,value*100)
+	--s_addValue(etype,eid,VALUE_TYPE_PDAM_SUB_PER,percent2[level]*100);
+	--s_addValue(etype,eid,VALUE_TYPE_MDAM_SUB_PER,percent2[level]*100);
+end
+
+--function OnRemoveBuffEvent_10509(level,etype,eid)
+--	s_setValue(etype,eid,VALUE_TYPE_ABSORB,0)
+--end

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map name="xinshoucun" backmusic="">
+	<Zones />
+	<circumstancesounds />
+	<FunctionZones>
+		<!--
+		<zonedef id="1" name="" backmusic="" width="3" height="3" x="38" y="82" />
+		-->
+		<zonedef id="1" name="死亡重生区" backmusic="" width="14" height="3" x="22" y="38" />
+	</FunctionZones>
+	<Way>
+		<!--
+		<WayPoint mapid="5" zoneid="3" enable="1">
+			<point x="100" y="101" />
+			<point x="100" y="102" />
+			<point x="99" y="104" />
+			<point x="100" y="103" />
+			<point x="101" y="102" />
+		</WayPoint>
+		-->
+	</Way>
+	<Super />
+	<Npc>
+		<!--
+		<npc id="4533" x="27.55" y="97.16" />
+		-->
+		<npc id="1" x="35" y="39"  />
+		<npc id="2" x="33" y="39"  />
+		<npc id="2" x="35" y="37"  />
+		<npc id="2" x="33" y="37"  />
+		
+		<npc id="2" x="37" y="66"  />
+		<npc id="2" x="38" y="66"  />
+		<npc id="2" x="39" y="66"  />
+		<npc id="2" x="40" y="66"  />
+		
+		<npc id="2" x="37" y="67"  />
+		<npc id="2" x="38" y="67"  />
+		<npc id="2" x="39" y="67"  />
+		<npc id="2" x="40" y="67"  />
+		
+		<npc id="2" x="37" y="68"  />
+		<npc id="2" x="38" y="68"  />
+		<npc id="2" x="39" y="68"  />
+		<npc id="2" x="40" y="68"  />
+		
+		<npc id="2" x="37" y="69"  />
+		<npc id="2" x="38" y="69"  />
+		<npc id="2" x="39" y="69"  />
+		<npc id="2" x="40" y="69"  />
+	</Npc>
+	<Mob>
+		<npc id="2" x="27" y="60"  />
+		<!--
+		<npc id="63056" x="64.93" y="66.084" />
+		-->
+	</Mob>
+</map>

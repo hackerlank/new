@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="BuildingLevelBase" file="团建筑升级表.xlsm">
+		<key code="wdID" />
+		<key code="wdLevel" />
+		<field type="uint16" column="类型" code="wdID" />
+		<field type="uint16" column="等级" code="wdLevel" />
+		<field type="uint32" column="升级繁荣度" code="dwLevelUpFanrong" />
+		<field type="uint32" column="升级团资金" code="dwLevelUpZijin" />
+		<field type="uint32" column="人数上限" code="dwNumLimit" />
+		<field type="string" column="名称" code="strName" />
+		<field type="string" column="下一级可购买物品" code="strNextLevelGoods" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="BuildingLevelBase" file="团建筑升级表.xlsm">
+		<key code="byType" />
+		<key code="byLevel" />
+		<field type="uint32" code="byType" column="类型" />
+		<field type="uint32" code="byLevel" column="等级" />
+		<field type="uint32" code="dwGlory" column="升级繁荣度" />
+		<field type="uint32" code="dwMoney" column="升级团资金" />
+		<field type="uint32" code="dwRunGlory" column="维护繁荣度" />
+		<field type="uint32" code="dwRunMoney" column="维护团资金" />
+		<field type="uint32" code="dwNpcid" column="建筑NPC" />
+		<field type="uint32" code="dwPosx" column="位置X" />
+		<field type="uint32" code="dwPosy" column="位置Y" />
+		<field type="uint32" code="dwCorpsPack" column="团包裹格子" />
+		<field type="uint32" code="dwCorpsMoney" column="团维护资金" />
+		<field type="uint32" code="dwMaxMember" column="人数上限" />
+		<field type="uint32" code="dwMaxPack" column="奖箱格子" />
+		<field type="uint32" code="dwMaxHealth" column="营养指数上限" />
+		<field type="uint32" code="dwMaxGlory" column="繁荣度上限" />
+		<field type="uint32" code="dwMaxMoney" column="资金上限" />
+		<field type="string" size="32" code="name" column="名称" />
+	</output>
+</table>

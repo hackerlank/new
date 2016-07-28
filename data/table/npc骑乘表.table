@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="NpcRideDatabase" file="npc骑乘表.xlsm">
+		<key code="dwNpcID" />
+		<field type="uint32" column="npc编号" code="dwNpcID" />
+		<field type="uint32" column="坐骑编号" code="dwTrifficID" />
+		<field type="uint32" column="坐骑类型" code="dwTrifficType" />
+	</output>
+</table>

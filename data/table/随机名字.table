@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="RandomNameDataBase" file="随机名字.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="ID" code="dwID" />
+		<field type="string" column="前缀" code="namePrefix" />
+		<field type="string" column="男" code="maleName" />
+		<field type="string" column="女" code="femaleName" />
+	</output>
+</table>

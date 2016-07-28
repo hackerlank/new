@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Zone />
+  <RelivePosition />
+  <ArmyEquipArea />
+  <NpcRect>
+    <rect id="1" width="10" height="10" x="71" y="34" />
+    <rect id="2" width="6" height="6" x="31" y="73" />
+    <rect id="3" width="9" height="4" x="73" y="78" />
+    <rect id="4" width="12" height="5" x="35" y="88" />
+    <rect id="5" width="10" height="10" x="109" y="104" />
+  </NpcRect>
+  <Npc>
+    <npc id="10007" name="蝎子" x="76" y="39" num="12" interval="1">
+      <rect id="1" />
+    </npc>
+    <npc id="10008" name="鬣狗" x="34" y="76" num="12" interval="1">
+      <rect id="2" />
+    </npc>
+    <npc id="10009" name="熊" x="78" y="80" num="12" interval="1">
+      <rect id="3" />
+    </npc>
+    <npc id="10010" name="野狗" x="41" y="91" num="10" interval="1">
+      <rect id="4" />
+    </npc>
+    <npc id="10012" name="怒熊" x="114" y="109" num="20" interval="1">
+      <rect id="5" />
+    </npc>
+    <npc id="10001" name="东夷族长" x="62" y="17" num="1" angle="253" />
+    <npc id="10002" name="训练官" x="52" y="61" num="1" angle="133" />
+    <npc id="10003" name="军需官" x="56" y="63" num="1" angle="243" />
+    <npc id="10004" name="受伤的王甲" x="55" y="100" num="1" angle="135" />
+    <npc id="10006" name="自然灵蕴" x="59" y="9" num="1" angle="189" />
+    <npc id="10011" name="三七" x="73" y="105" num="1" angle="192" />
+    <npc id="5001" name="测试村方向" x="127" y="80" num="1" angle="127" />
+    <npc id="5002" name="传送NPC" x="64" y="71" num="1" angle="124" />
+  </Npc>
+  <Way />
+</Map>

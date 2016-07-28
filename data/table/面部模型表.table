@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="FaceDataBase" file="面部模型表.xlsm">
+		<key code="wdID" />
+		<key code="wdSex" />
+		<field type="uint16" column="编号" code="wdID" />
+		<field type="uint16" column="性别" code="wdSex" />
+		<field type="string" column="名称" code="strName" />
+		<field type="uint32" column="图标" code="dwIcon" />
+		<field type="uint32" column="图标组" code="dwIconGrp" />
+		<field type="string" column="模型名" code="strModel" />
+		<field type="string" column="说明" code="strDesc" />
+	</output>
+</table>

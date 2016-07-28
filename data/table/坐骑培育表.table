@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="HorseFeedDatabase" file="坐骑培育表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="等阶" code="dwLevel" />
+		<field type="uint32" column="坐骑ID" code="dwID" />
+		<field type="uint32" column="进阶ID" code="dwLevelupID" />
+		<field type="uint32" column="坐骑资质分" code="dwQualityMarks" />
+		<field type="uint32" column="进阶道具ID" code="dwLevelupMaterial" />
+		<field type="uint32" column="坐骑速度" code="dwSpeed" />
+		<field type="uint32" column="喂养花费" code="dwFeedCost" />
+		<field type="uint32" column="激活道具ID" code="dwActiveMaterial" />
+		<field type="uint32" column="激活道具数量" code="dwActiveMaterialNum" />
+		<field type="uint32" column="外观继承消耗材料ID" code="dwInheritDressedID" />
+		<field type="uint32" column="外观继承消耗材料数量" code="dwInheritDressedNum" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="HorseBreedBase" file="坐骑培育表.xlsm">
+		<key code="horseid" />
+		<field type="uint32" code="level" column="等阶" />
+		<field type="uint32" code="horseid" column="坐骑ID" />
+		<field type="uint32" code="nextlevelid" column="进阶ID" />
+		<field type="uint32" code="zvaluescore" column="坐骑资质分" />
+		<field type="uint32" code="itemid" column="进阶道具ID" />
+		<field type="uint32" code="speed" column="坐骑速度" />
+		<field type="uint32" code="addrateoffhorse" column="下马属性" />
+		<field type="uint32" code="needmoney" column="喂养花费" />
+		<field type="uint32" code="maxsingle" column="单项资质上限" />
+		<field type="uint32" code="activeitemid" column="激活道具ID" />
+		<field type="uint32" code="activeitemnum" column="激活道具数量" />
+		<field type="uint32" code="inheritDressedID" column="外观继承消耗材料ID" />
+		<field type="uint32" code="inheritDressedNum" column="外观继承消耗材料数量" />
+	</output>
+</table>

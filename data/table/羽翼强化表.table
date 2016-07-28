@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="WingUpGradeBase" file="羽翼强化表.xlsm">
+		<key code="dwLevel" />
+		<field type="uint32" column="强化等级" code="dwLevel" />
+		<field type="string" column="对应成功率" code="strRate">
+			<regex><![CDATA[^\d+:\d+(;\d+:\d+){3}$]]></regex>
+		</field>
+		<field type="uint32" column="物攻附加提升" code="dwPDam" />
+		<field type="uint32" column="化攻附加提升" code="dwMDam" />
+		<field type="uint32" column="物防附加提升" code="dwPDef" />
+		<field type="uint32" column="化防附加提升" code="dwMDef" />
+		<field type="uint32" column="生命值附加提升" code="dwHP" />
+		<field type="uint32" column="需要金钱" code="dwPrice" />
+		<field type="uint32" column="惩罚等级" code="wdFailedLevel" />
+		<field type="uint32" column="幸运增加几率" code="dwPerfectUpgrade" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="WingUpGradeBase" file="羽翼强化表.xlsm">
+		<key code="level" />
+		<field type="uint32" code="level" column="强化等级" />
+		<field type="string" size="64" code="success" column="对应成功率" />
+		<field type="uint32" code="pdam" column="物攻附加提升" />
+		<field type="uint32" code="mdam" column="化攻附加提升" />
+		<field type="uint32" code="pdef" column="物防附加提升" />
+		<field type="uint32" code="mdef" column="化防附加提升" />
+		<field type="uint32" code="maxhp" column="生命值附加提升" />
+		<field type="uint32" code="needmoney" column="需要金钱" />
+		<field type="uint32" code="falselevel" column="惩罚等级" />
+		<field type="uint32" code="addrate" column="幸运增加几率" />
+	</output>
+</table>

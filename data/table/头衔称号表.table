@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="TitleDataBase" file="头衔称号表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="编号" code="dwID" />
+		<field type="string" column="名称" code="strName" />
+		<field type="uint32" column="时间" code="dwTime" />
+		<field type="uint32" column="百分比物攻加成" code="dwPdam" />
+		<field type="uint32" column="百分比化攻加成" code="dwMdam" />
+		<field type="uint32" column="百分比物防加成" code="dwPdef" />
+		<field type="uint32" column="百分比化防加成" code="dwMdef" />
+		<field type="uint32" column="百分比生命值加成" code="dwMaxhp" />
+		<field type="uint32" code="pdam_ext" column="物攻固定值" />
+		<field type="uint32" code="mdam_ext" column="化攻固定值" />
+		<field type="uint32" code="pdef_ext" column="物防固定值" />
+		<field type="uint32" code="mdef_ext" column="化防固定值" />
+		<field type="uint32" code="maxhp_ext" column="生命固定值" />
+		<field type="uint32" column="品质" code="dwQuality" />
+		<field type="uint32" column="等级" code="dwLevel" />
+		<field type="string" column="称号说明" code="strDesc" />
+		<field type="uint32" column="可否查询" code="dwShow" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="TitleDataBase" file="头衔称号表.xlsm">
+		<key code="id" />
+		<field type="uint32" code="id" column="编号" />
+		<field type="string" size="32" code="name" column="名称" />
+		<field type="uint32" code="time" column="时间" />
+		<field type="uint32" code="pdam_per" column="百分比物攻加成" />
+		<field type="uint32" code="mdam_per" column="百分比化攻加成" />
+		<field type="uint32" code="pdef_per" column="百分比物防加成" />
+		<field type="uint32" code="mdef_per" column="百分比化防加成" />
+		<field type="uint32" code="maxhp_per" column="百分比生命值加成" />
+		<field type="uint32" code="pdam_ext" column="物攻固定值" />
+		<field type="uint32" code="mdam_ext" column="化攻固定值" />
+		<field type="uint32" code="pdef_ext" column="物防固定值" />
+		<field type="uint32" code="mdef_ext" column="化防固定值" />
+		<field type="uint32" code="maxhp_ext" column="生命固定值" />
+	</output>
+</table>

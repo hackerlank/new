@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="RushHeavenGateDatabase" file="七天闯关活动表.xlsm">
+		<key code="wdAimID" />
+		<field type="uint32" column="目标ID" code="wdAimID" />
+		<field type="string" column="完成目标" code="strAimTitle" />
+		<field type="string" column="目标描述" code="strAimDesc" />
+		<field type="string" column="任务追踪栏" code="strTaskTrace" />
+		<field type="uint32" column="图标ID" code="dwIconID" />
+		<field type="uint32" column="图标组" code="dwIconGrp" />
+		<field type="string" column="小贴士" code="strPrompt" />
+	</output>
+</table>

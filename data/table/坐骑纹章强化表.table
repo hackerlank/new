@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="HorseEquipUpGradeBase" file="坐骑纹章强化表.xlsm">
+		<key code="wdID" />
+		<key code="wdQualityLevel" />
+		<field type="uint16" column="纹章ID" code="wdID" />
+		<field type="uint16" column="强化等级" code="wdLevel" />
+		<field type="string" column="对应成功率" code="strRate">
+			<regex><![CDATA[^\d+:\d+(;\d+:\d+){3}$]]></regex>
+		</field>
+		<field type="uint32" column="物攻附加" code="dwPDam" />
+		<field type="uint32" column="化攻附加" code="dwMDam" />
+		<field type="uint32" column="物防附加" code="dwPDef" />
+		<field type="uint32" column="化防附加" code="dwMDef" />
+		<field type="uint32" column="生命值附加" code="dwHP" />
+		<field type="uint32" column="需要金钱" code="dwPrice" />
+		<field type="uint32" column="惩罚等级" code="wdFailedLevel" />
+		<field type="uint32" column="幸运增加几率" code="dwPerfectUpgrade" />
+		<field type="uint16" column="品质强化等级" code="wdQualityLevel" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="HorseEquipUpGradeBase" file="坐骑纹章强化表.xlsm">
+		<key code="equipid" />
+		<key code="quality" />
+		<key code="level" />
+		<field type="uint32" code="equipid" column="纹章ID" />
+		<field type="uint16" code="level" column="强化等级" />
+		<field type="string" size="64" code="success" column="对应成功率" />
+		<field type="uint32" code="pdam" column="物攻附加" />
+		<field type="uint32" code="mdam" column="化攻附加" />
+		<field type="uint32" code="pdef" column="物防附加" />
+		<field type="uint32" code="mdef" column="化防附加" />
+		<field type="uint32" code="maxhp" column="生命值附加" />
+		<field type="uint32" code="needmoney" column="需要金钱" />
+		<field type="uint32" code="falselevel" column="惩罚等级" />
+		<field type="uint32" code="addrate" column="幸运增加几率" />
+		<field type="uint16" code="quality" column="品质" />
+	</output>
+</table>

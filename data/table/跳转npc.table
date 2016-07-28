@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="JumpNpcDatabase" file="跳转npc表.xlsm">
+		<field type="uint16" column="当前地图ID" code="wdID1" />
+		<field type="uint16" column="跳转地图ID" code="wdID2" />
+		<field type="uint32" column="跳转NPCID" code="npcid" />
+	</output>
+</table>

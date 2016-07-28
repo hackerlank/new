@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="ArmyEquipDatabase" file="军团装备基本表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="编号" code="dwID" />
+		<field type="string" column="名称" code="strName" />
+		<field type="uint32" column="分类" code="dwClassfy" />
+		<field type="uint32" column="类型" code="dwType" />
+		<field type="uint32" column="承载人数" code="dwMaxPassenger" />
+		<field type="uint32" column="额外承载" code="dwExPassenger" />
+		<field type="uint32" column="右键点击" code="dwRightBtnClick" />
+		<field type="uint32" column="打造材料" code="dwRenterPrice" />
+		<field type="uint32" column="销毁返还材料" code="dwProtectPrice" />
+		<field type="uint32" column="修理材料" code="dwRepairMaterial" />
+		<field type="uint32" column="修理费用" code="dwRepairPrice" />
+		<field type="uint32" column="打造费用" code="dwChangePrice" />
+		<field type="uint32" column="打造等级" code="dwChangeMaterial" />
+		<field type="string" column="速度" code="strSpeed">
+			<regex><![CDATA[^(\d+(-\d+)*)?$]]></regex>
+		</field>
+		<field type="string" column="攻击" code="strAttack">
+			<regex><![CDATA[^(\d+(-\d+)*)?$]]></regex>
+		</field>
+		<field type="string" column="光环" code="strBuff">
+			<regex><![CDATA[^(\d+(-\d+)*(;\d+(-\d+)*)*)?$]]></regex>
+		</field>
+		<field type="string" column="说明" code="strDesc" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="ArmyEquipDataBase" file="军团装备基本表.xlsm">
+		<key code="id" />
+		<field type="uint32" code="id" column="编号" />
+		<field type="string" size="32" code="name" column="名称" />
+		<field type="uint32" code="type" column="分类" />
+		<field type="uint32" code="category" column="类型" />
+		<field type="uint32" code="maxmember" column="承载人数" />
+		<field type="uint32" code="cnumber" column="打造材料" />
+		<field type="uint32" code="dnumber" column="销毁返还材料" />
+		<field type="uint32" code="inumber" column="修理材料" />
+		<field type="uint32" code="imoney" column="修理费用" />
+		<field type="uint32" code="cmoney" column="打造费用" />
+		<field type="uint32" code="clevel" column="打造等级" />
+		<field type="uint32" code="extmember" column="额外承载" />
+		<field type="uint32" code="chart" column="图纸" />
+		<field type="uint32" code="maxhp" column="血量" />
+	</output>
+</table>

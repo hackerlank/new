@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="PinyinDataBase" file="首字母表.xlsm">
+		<key code="glyph" />
+		<field type="uint32" column="字符值" code="glyph" />
+		<field type="uint8" column="汉语拼音键值" code="pinyinKey" />
+		<field type="uint8" column="注音字符键值" code="zhuyinKey" />
+	</output>
+</table>

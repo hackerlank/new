@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="WingOracleLevelBase" file="神谕等级表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="神谕ID" code="dwID" />
+		<field type="uint32" column="镶嵌费用" code="dwInlayPrice" />
+		<field type="uint32" column="致命" code="dwLucky" />
+		<field type="uint32" column="重击" code="dwBang" />
+		<field type="uint32" column="忽视防御" code="dwIgnoredef" />
+		<field type="uint32" column="伤害反射" code="dwHurtecho" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="WingOracleLevelBase" file="神谕等级表.xlsm">
+		<key code="oracleid" />
+		<field type="uint32" code="oracleid" column="神谕ID" />
+		<field type="uint32" code="inlayprice" column="镶嵌费用" />
+		<field type="uint32" code="lucky" column="致命" />
+		<field type="uint32" code="bang" column="重击" />
+		<field type="uint32" code="ignoredef" column="忽视防御" />
+		<field type="uint32" code="hurtecho" column="伤害反射" />
+	</output>
+</table>

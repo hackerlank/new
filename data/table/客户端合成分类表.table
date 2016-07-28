@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="SynthesisTypeDataBase" file="客户端合成分类表.xlsm">
+		<key code="firstType" />
+		<key code="secondType" />
+		<field type="uint32" column="一级类别" code="firstType" />
+		<field type="uint32" column="二级类别" code="secondType" />
+		<field type="string" column="一级类别名称" code="firstTypeName" />
+		<field type="string" column="二级类别名称" code="secondTypeName" />
+		<field column="道具ID" code="baseIDList" type="array">
+			<field type="uint32" />
+		</field>
+	</output>
+</table>

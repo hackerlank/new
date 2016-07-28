@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="NpcTileSfx" file="NPC地表特效表.xlsm">
+		<key code="dwNpcID" />
+		<field type="uint32" column="ID" code="dwNpcID" />
+		<field type="string" column="脚部绑定点" code="szFeetNodes">
+			<regex><![CDATA[^([0-9a-zA-Z_]+(;[0-9a-zA-Z_]+)*)$]]></regex>
+		</field>
+		<field type="uint32" column="脚步音效类型" code="dwStepSoundType" />
+		<field type="string" column="脚印特效" code="szFootprintSfx" />
+		<field type="string" column="尘土特效" code="szDirtSfx" />
+	</output>
+</table>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+<output sheet="商城基本" type="protobuf" code="StoreDataBase" file="Store_商城表.xlsx">
+		<key code="mallItemId" />
+		<field type="uint32" column="索引ID" code="mallItemId" />
+		<field type="uint8" column="商城ID" code="storeId" />
+		<field type="uint32" column="道具ID" code="itemId" />
+		<field type="uint32" column="叠加数量" code="pileNum" />
+		<field type="uint8" column="购买货币类型" code="moneyType" />
+		<field type="uint32" column="单价" code="buyPrice" />
+		<field type="uint32" column="折后单价" code="offPrice" />
+		<field type="uint32" column="每日限购数量" code="dayMaxnum" />
+		<field type="uint32" column="是否标记热门" code="isHot" />
+		<field type="uint32" column="全服可售总数" code="serMaxnum" />
+		<field type="uint8" column="VIP等级限制" code="vipLev" />	
+		<field type="uint16" column="主角等级限制" code="lev" />
+		<field type="uint8" column="是否开启打折" code="isOff" />
+		<field type="uint8" column="是否下架" code="isOut" />
+	</output>
+	<output sheet="商城基本" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="StoreDataBase" file="Store_商城表.xlsx">
+		<key code="index" />
+		<field type="uint32" column="索引ID" code="index" />
+		<field type="uint8" column="商城ID" code="store_id" />
+		<field type="uint32" column="道具ID" code="item_id" />
+		<field type="uint32" column="叠加数量" code="pile_num" />
+		<field type="uint8" column="购买货币类型" code="money_type" />
+		<field type="uint32" column="单价" code="buy_price" />
+		<field type="uint32" column="折后单价" code="off_price" />
+		<field type="uint32" column="每日限购数量" code="day_maxnum" />
+		<field type="uint32" column="全服可售总数" code="ser_maxnum" />
+		<field type="uint8" column="VIP等级限制" code="vip_lev" />	
+		<field type="uint16" column="主角等级限制" code="lev" />
+		<field type="uint8" column="是否开启打折" code="is_off" />
+		<field type="uint8" column="是否下架" code="is_out" />
+	</output>
+</table>

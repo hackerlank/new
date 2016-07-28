@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="BossCard" file="boss卡片表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="卡片编号" code="dwID" />
+		<field type="uint32" column="前缀" code="dwPro" />
+		<field type="uint32" column="npcid" code="dwnpcid" />
+		<field type="string" column="卡片名称" code="dwCardname" />
+		<field type="uint32" column="卡片图标" code="dwCardpic" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="BossCardDataBase" file="Boss卡片表.xlsm">
+		<key code="id" />
+		<field type="uint32" code="id" column="卡片编号" />
+		<field type="uint32" code="prefix" column="前缀" />
+		<field type="string" size="32" code="attribute" column="属性生成" />
+	</output>
+</table>

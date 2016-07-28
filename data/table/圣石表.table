@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="SacredStoneDataBase" file="圣石表.xlsm">
+		<key code="dwID" />
+		<key code="wdQuality" />
+		<key code="wdLevel" />
+		<field type="uint32" column="圣石ID" code="dwID" />
+		<field type="uint16" column="品质" code="wdQuality" />
+		<field type="uint16" column="等级" code="wdLevel" />
+		<field type="uint32" column="物攻" code="dwPdam" />
+		<field type="uint32" column="魔攻" code="dwMdam" />
+		<field type="uint32" column="物防" code="dwPdef" />
+		<field type="uint32" column="魔防" code="dwMdef" />
+		<field type="uint32" column="生命" code="dwMaxhp" />
+		<field type="uint32" column="携带魔阵经验和" code="dwTotalExp" />
+		<field type="uint32" column="需要绑银" code="dwJudgeMoney" />
+		<field type="uint32" column="需要等级" code="dwNeedLevel" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="SacredStoneDataBase" file="圣石表.xlsm">
+		<key code="stoneid" />
+		<key code="quality" />
+		<key code="level" />
+		<field type="uint32" code="stoneid" column="圣石ID" />
+		<field type="uint16" code="quality" column="品质" />
+		<field type="uint16" code="level" column="等级" />
+		<field type="uint32" code="pdam" column="物攻" />
+		<field type="uint32" code="mdam" column="魔攻" />
+		<field type="uint32" code="pdef" column="物防" />
+		<field type="uint32" code="mdef" column="魔防" />
+		<field type="uint32" code="maxhp" column="生命" />
+		<field type="uint32" code="totalexp" column="携带魔阵经验和" />
+		<field type="uint32" code="fee" column="需要绑银" />
+		<field type="uint32" code="userlevel" column="需要等级" />
+	</output>
+</table>

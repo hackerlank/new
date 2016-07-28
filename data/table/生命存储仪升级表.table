@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="LifeEquipDataBase" file="生命存储仪升级表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="存储仪编号" code="dwID" />
+		<field type="uint32" column="白血量" code="dwHpWhite" />
+		<field type="uint32" column="蓝血量" code="dwHpBlue" />
+		<field type="uint32" column="黄血量" code="dwHpYellow" />
+		<field type="uint32" column="绿血量" code="dwHpGreen" />
+		<field type="uint32" column="血精石个数" code="dwNeedStoneNum" />
+		<field type="uint32" column="血精石等级" code="dwNeedStoneLevel" />
+		<field type="uint32" column="成功几率" code="dwRate" />
+		<field type="uint32" column="失败生命仪" code="dwPenaltyID" />
+		<field type="uint32" column="手续费" code="dwPrice" />
+		<field type="uint32" column="需求人物等级" code="dwNeedRoleLevel" />
+		<field type="uint32" column="目标生命仪" code="dwTargetID" />
+		<field type="uint32" column="失败后等级" code="dwLevelPenalty" />
+		<field type="uint32" column="生命仪等级" code="dwLevel" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="LifeStoreInstrument" file="生命存储仪升级表.xlsm">
+		<key code="id" />
+		<field type="uint32" code="id" column="存储仪编号" />
+		<field type="uint32" code="needstonenum" column="血精石个数" />
+		<field type="uint32" code="needstonelevel" column="血精石等级" />
+		<field type="uint32" code="successrate" column="成功几率" />
+		<field type="uint32" code="failto" column="失败生命仪" />
+		<field type="uint32" code="fee" column="手续费" />
+		<field type="uint32" code="addlife_white" column="白血量" />
+		<field type="uint32" code="addlife_blue" column="蓝血量" />
+		<field type="uint32" code="addlife_yellow" column="黄血量" />
+		<field type="uint32" code="addlife_green" column="绿血量" />
+		<field type="uint32" code="needrolelevel" column="需求人物等级" />
+		<field type="uint32" code="successto" column="目标生命仪" />
+	</output>
+</table>

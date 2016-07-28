@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="EquipSoulDataBase" file="灵魂属性表.xlsm">
+		<key code="type" />
+		<key code="quality" />
+		<field type="uint32" code="type" column="装备类别" />
+		<field type="uint32" code="quality" column="材料品质" />
+		<field type="string" size="64" code="soulhit" column="致命一击">
+			<regex><![CDATA[^0|(\d+(-\d+){2}(:\d+(-\d+){2}){2})$]]></regex>
+		</field>
+		<field type="string" size="64" code="soulignoredef" column="忽视防御">
+			<regex><![CDATA[^0|(\d+(-\d+){2}(:\d+(-\d+){2}){2})$]]></regex>
+		</field>
+		<field type="string" size="64" code="soulbang" column="重击">
+			<regex><![CDATA[^0|(\d+(-\d+){2}(:\d+(-\d+){2}){2})$]]></regex>
+		</field>
+		<field type="string" size="64" code="soulhurtecho" column="伤害反射">
+			<regex><![CDATA[^0|(\d+(-\d+){2}(:\d+(-\d+){2}){2})$]]></regex>
+		</field>
+		<field type="string" size="64" code="soulphurtsub" column="物伤减少">
+			<regex><![CDATA[^0|(\d+(-\d+){2}(:\d+(-\d+){2}){2})$]]></regex>
+		</field>
+		<field type="string" size="64" code="soulmhurtsub" column="化伤减少">
+			<regex><![CDATA[^0|(\d+(-\d+){2}(:\d+(-\d+){2}){2})$]]></regex>
+		</field>
+		<field type="string" size="64" code="soulmaxhpadd" column="生命值增加">
+			<regex><![CDATA[^0|(\d+(-\d+){2}(:\d+(-\d+){2}){2})$]]></regex>
+		</field>
+	</output>
+</table>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="GameGlobalConfig" file="游戏全局配置.xlsm">
+		<key code="TableID" />
+		<field type="uint32" column="编号" code="TableID" />
+		<field type="string" column="游戏名称" code="GameName" />
+		<field type="uint32" column="游戏ID" code="GameID" />
+		<field type="string" column="登录IP" code="LoginSeverIP" />
+		<field type="uint32" column="登录端口" code="LoginSeverPort" />
+		<field type="uint32" column="区域ID" code="ZoneID" />
+	</output>
+</table>

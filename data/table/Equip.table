@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="装备类" type="protobuf" code="EquipDataBase" file="Item表格.xlsm">
+		<key code="equipID" />
+		<field type="uint32" column="装备ID" code="equipID" />
+		<field type="uint32" column="装备部位" code="equipPos" />
+		<field type="uint32" column="物理攻击下限" code="pdamMin" />
+		<field type="uint32" column="物理攻击上限" code="pdamMax" />
+		<field type="uint32" column="法术攻击下限" code="mdamMin" />
+		<field type="uint32" column="法术攻击上限" code="mdamMax" />
+		<field type="uint32" column="物理防御下限" code="pdefMin" />
+		<field type="uint32" column="物理防御上限" code="pdefMax" />
+		<field type="uint32" column="法术防御下限" code="mdefMin" />
+		<field type="uint32" column="法术防御上限" code="mdefMax" />
+		<field type="uint32" column="最大耐久度" code="maxDurable" />
+		<field type="uint32" column="高级属性种类上限" code="maxHighProp" />
+		<field type="uint32" column="附加属性种类上限" code="maxAddProp" />
+		<field type="uint32" column="宝石孔最大数" code="maxHoles" />
+		<field type="uint32" column="外观男" code="apperMale" />
+		<field type="uint32" column="外观女" code="apperFemale" />
+	</output>
+	<output sheet="装备类" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="EquipDataBase" file="Item表格.xlsm">
+		<key code="equip_id" />
+		<field type="uint32" column="装备ID" code="equip_id" />
+		<field type="uint8" column="装备部位" code="equip_pos" />
+		<field type="uint32" column="物理攻击下限" code="pdam_min" />
+		<field type="uint32" column="物理攻击上限" code="pdam_max" />
+		<field type="uint32" column="法术攻击下限" code="mdam_min" />
+		<field type="uint32" column="法术攻击上限" code="mdam_max" />
+		<field type="uint32" column="物理防御上限" code="pdef_min" />
+		<field type="uint32" column="物理防御下限" code="pdef_max" />
+		<field type="uint32" column="法术防御下限" code="mdef_min" />
+		<field type="uint32" column="法术防御上限" code="mdef_max" />
+		<field type="uint32" column="最大耐久度" code="max_durable" />
+		<field type="uint8" column="高级属性种类上限" code="max_highprop" />
+		<field type="uint8" column="附加属性种类上限" code="max_addprop" />
+		<field type="uint8" column="宝石孔最大数" code="max_holes" />		
+	</output>
+</table>

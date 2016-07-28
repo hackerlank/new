@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="法师" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="UserFreemanDataBase" file="Role属性设定.xlsx">
+		<key code="level" />
+		<field type="uint32" column="等级" code="level" />
+		<field type="uint32" column="体质" code="tizhi" />
+		<field type="uint32" column="力量" code="liliang" />
+		<field type="uint32" column="智力" code="zhili" />
+		<field type="uint32" column="精神" code="jingshen" />
+		<field type="uint32" column="敏捷" code="minjie" />
+		
+		<field type="uint32" column="生命上限" code="maxhp" />
+		<field type="uint32" column="法力上限" code="maxsp" />
+		<field type="uint32" column="物理攻击" code="pdam" />
+		<field type="uint32" column="物理防御" code="pdef" />
+		<field type="uint32" column="法术攻击" code="mdam" />
+		<field type="uint32" column="法术防御" code="mdef" />
+		<field type="uint32" column="物理致命" code="lucky" />
+		<field type="uint32" column="法术致命" code="mlucky" />
+		<field type="uint32" column="命中" code="phit" />
+		<field type="uint32" column="闪避" code="hide" />
+	</output>
+</table>

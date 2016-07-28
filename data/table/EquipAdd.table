@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="装备附加属性" type="protobuf" code="EquipAddBase" file="Item表格.xlsm">
+		<key code="equipID" />
+		<field type="uint32" column="物品ID" code="equipID" />
+	</output>
+	<output sheet="装备附加属性" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="EquipAddBase" file="Item表格.xlsm">
+		<key code="equip_id" />
+		<field type="uint32" column="物品ID" code="equip_id" />
+		<field type="string" size="64" column="洞概率" code="holenum_prob" />
+		<field type="string" size="64" column="属性个数概率" code="propnum_prob" />
+		<field type="string" size="1024" column="属性概率" code="prop_info" />	
+	</output>
+</table>

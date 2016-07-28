@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="UnlockStoreDataBase" file="Unlock背包仓库格.xlsx">
+		<key code="pack_id" />
+		<key code="index" />
+		<field type="uint16" column="背包ID" code="pack_id" />
+		<field type="uint16" column="解锁序号" code="index" />
+		<field type="uint16" column="解锁等级" code="need_lev" />
+		<field type="uint8" column="VIP限定" code="need_viplev" />
+		<field type="uint16" column="初始开启格数" code="init_num" />
+		<field type="uint16" column="格子上限" code="max_num" />
+		<field type="uint8" column="解锁货币类型" code="money_type" />
+		<field type="uint32" column="解锁货币数量" code="money_num" />
+	</output>
+</table>

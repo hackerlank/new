@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="HorseUpgradeDataBase" file="坐骑升级表.xlsm">
+		<key code="dwQuality" />
+		<key code="dwLevel" />
+		<field type="uint16" column="坐骑品质" code="dwQuality" />
+		<field type="uint16" column="等级" code="dwLevel" />
+		<field type="uint32" column="物理攻击增加" code="dwPDam" />
+		<field type="uint32" column="魔法攻击增加" code="dwMDam" />
+		<field type="uint32" column="物理防御增加" code="dwPDef" />
+		<field type="uint32" column="魔法防御增加" code="dwMDef" />
+		<field type="uint32" column="生命增加" code="dwHP" />
+		<field type="uint32" column="升级消耗材料" code="dwMaterialID" />
+		<field type="uint32" column="升级消耗材料等级" code="dwMaterialLevel" />
+		<field type="uint32" column="升级消耗材料数量" code="dwMaterialNum" />
+		<field type="uint32" column="升级消耗手续费" code="dwCost" />
+		<field type="uint32" column="升级消耗手续费类型" code="dwCostType" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="HorseUpgradeDataBase" file="坐骑升级表.xlsm">
+		<key code="quality" />
+		<key code="level" />
+		<field type="uint16" column="坐骑品质" code="quality" />
+		<field type="uint16" column="等级" code="level" />
+		<field type="uint32" column="物理攻击增加" code="pdam" />
+		<field type="uint32" column="魔法攻击增加" code="mdam" />
+		<field type="uint32" column="物理防御增加" code="pdef" />
+		<field type="uint32" column="魔法防御增加" code="mdef" />
+		<field type="uint32" column="生命增加" code="maxhp" />
+		<field type="uint32" column="升级消耗材料" code="materialid" />
+		<field type="uint32" column="升级消耗材料等级" code="materiallevel" />
+		<field type="uint32" column="升级消耗材料数量" code="materialnum" />
+		<field type="uint32" column="升级消耗手续费" code="cost" />
+		<field type="uint32" column="升级消耗手续费类型" code="costtype" />
+	</output>
+</table>
