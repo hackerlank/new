@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="DemonSpeechDataBase" file="奇异兽喊话表.xlsm">
+		<key code="wdState" />
+		<key code="wdID" />
+		<field type="uint16" column="状态" code="wdState" />
+		<field type="uint16" column="编号" code="wdID" />
+		<field type="uint32" column="内容数量" code="dwMaxNum" />
+		<field type="string" column="内容" code="strSpeech" />
+		<field type="string" column="几率" code="strProbability">
+			<regex><![CDATA[^(\d+-\d+(;\d+-\d+)*)?$]]></regex>
+		</field>
+	</output>
+</table>

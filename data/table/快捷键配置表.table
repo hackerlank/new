@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="HotKeyDataBase" file="快捷键配置表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="编号" code="dwID" />
+		<field type="uint32" column="玩家可见" code="dwVisible" />
+		<field type="uint32" column="分类" code="dwType" />
+		<field type="string" column="名称" code="strName" />
+		<field type="string" column="默认快捷键0" code="strDefaultKey0" />
+		<field type="string" column="默认快捷键1" code="strDefaultKey1" />
+		<field type="string" column="默认快捷键2" code="strDefaultKey2" />
+		<field type="string" column="默认快捷键3" code="strDefaultKey3" />
+		<field type="uint32" column="关联打开" code="dwRelationID" />
+		<field type="uint32" column="引导ID" code="dwIntroID" />
+		<field type="uint32" column="引导等级" code="dwNeedLevel" />
+		<field type="string" column="悬浮提示" code="strTips" />
+	</output>
+</table>

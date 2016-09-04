@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="NpcHeadSfx" file="NPC头顶特效表.xlsm">
+		<key code="dwNpcID" />
+		<field type="uint32" column="ID" code="dwNpcID" />
+		<field type="uint32" column="特效补充表ID" code="dwSfxID" />
+	</output>
+</table>

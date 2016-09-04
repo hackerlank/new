@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="HorseHeChengDataBase" file="坐骑资质表.xlsm">
+		<key code="dwLevel" />
+		<field type="uint32" column="资质等级" code="dwLevel" />
+		<field type="uint32" column="总资质下区间" code="dwTotalMinValue" />
+		<field type="uint32" column="总资质上区间" code="dwTotalMaxValue" />
+		<field type="uint32" column="单项最小值" code="dwMinValue" />
+		<field type="uint32" column="单项最大值" code="dwMaxValue" />
+		<field type="uint32" column="骑魂合成费用" code="dwHeChengCost" />
+		<field type="uint32" column="骑魂合成胜率" code="dwPercent" />
+		<field type="uint32" column="坐骑融合费用" code="dwRongHeCost" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="HorseZDataBase" file="坐骑资质表.xlsm">
+		<key code="level" />
+		<field type="uint32" code="level" column="资质等级" />
+		<field type="uint32" code="mintotal" column="总资质下区间" />
+		<field type="uint32" code="maxtotal" column="总资质上区间" />
+		<field type="uint32" code="minone" column="单项最小值" />
+		<field type="uint32" code="maxone" column="单项最大值" />
+		<field type="uint32" code="soulcomposefee" column="骑魂合成费用" />
+		<field type="uint32" code="soulcomposerand" column="骑魂合成胜率" />
+		<field type="uint32" code="horsecomposefee" column="坐骑融合费用" />
+	</output>
+</table>

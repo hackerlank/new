@@ -1,0 +1,3 @@
+--装死
+
+REMOVE_BUFF_ON_MOVE_10312 = 1

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="NewGuideContentBase" file="引导内容表格.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="编号" code="dwID" />
+		<field type="string" column="引导内容" code="strContent" />
+		<field type="uint32" column="等级" code="dwLevel" />
+		<field type="uint32" column="hotkey" code="dwHotkeyID" />
+		<field type="string" column="任务ID" code="strTaskIDs" />
+		<field type="string" column="说明" code="strTips" />
+		<field type="uint32" column="图标" code="dwIcon" />
+	</output>
+</table>

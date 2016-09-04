@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="UserColFuncDataBase" file="交流功能表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="功能编号" code="dwID" />
+		<field type="string" column="名称" code="strName" />
+		<field type="uint32" column="图标" code="dwIcon" />
+		<field type="uint32" column="开放状态" code="dwOpenState" />
+		<field type="string" column="说明" code="strDesc" />
+	</output>
+</table>

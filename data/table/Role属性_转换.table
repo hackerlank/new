@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="属性转化" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="UserPropChangeDataBase" file="Role属性设定.xlsx">
+		<key code="role" />
+		<key code="prop" />
+		<field type="uint32" column="职业" code="role" />
+		<field type="uint32" column="属性" code="prop" />
+		
+		<field type="uint32" column="生命值" code="maxhp" />
+		<field type="uint32" column="法力值" code="maxsp" />
+		<field type="uint32" column="物理攻击" code="pdam" />
+		<field type="uint32" column="物理防御" code="pdef" />
+		<field type="uint32" column="法术攻击" code="mdam" />
+		<field type="uint32" column="法术防御" code="mdef" />
+		<field type="uint32" column="物理致命" code="lucky" />
+		<field type="uint32" column="法术致命" code="mlucky" />
+		<field type="uint32" column="治疗" code="cure" />
+	</output>
+</table>

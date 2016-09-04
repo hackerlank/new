@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="ColdDownDataBase" file="冷却.xlsm">
+		<key code="id" />
+		<field type="uint32" code="id" column="编号" />
+		<field type="string" size="32" code="name" column="名称" />
+		<field type="uint32" code="coldtype" column="间隔类型" />
+		<field type="uint32" code="maxtimes" column="使用次数" />
+	</output>
+</table>

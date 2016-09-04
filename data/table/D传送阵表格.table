@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="DeliverDatabase" file="D传送阵表格.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="传送NPCID" code="dwID" />
+		<field type="string" column="描述" code="strDes" />
+		<field type="uint32" column="地图ID" code="dwMapID" />
+		<field type="uint32" column="目标地图ID" code="dwDestMapID" />
+		<field column="限制条件类型" code="condTypeArray" type="array">
+			<field type="uint32" />
+		</field>
+		<field column="限制条件值" code="condValueArray" type="array">
+			<field type="uint32" />
+		</field>
+		<field column="传送阵坐标" code="pos" type="array">
+			<field type="uint32" />
+		</field>
+		<field column="传送地图坐标" code="destPos" type="array">
+			<field type="uint32" />
+		</field>		
+	</output>
+</table>

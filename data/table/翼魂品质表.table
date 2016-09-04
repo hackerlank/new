@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="WingSpiritQualityBase" file="翼魂品质表.xlsm">
+		<key code="dwQuality" />
+		<field type="uint32" column="翼魂品质" code="dwQuality" />
+		<field type="uint32" column="增加魂性" code="dwSpiritPiece" />
+		<field type="uint32" column="入魂费用" code="dwSpiritPrice" />
+		<field type="uint32" column="合成费用" code="dwComposePrice" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="WingSpiritQualityBase" file="翼魂品质表.xlsm">
+		<key code="quality" />
+		<field type="uint32" code="quality" column="翼魂品质" />
+		<field type="uint32" code="spiritpiece" column="增加魂性" />
+		<field type="uint32" code="spiritprice" column="入魂费用" />
+		<field type="uint32" code="composeprice" column="合成费用" />
+	</output>
+</table>

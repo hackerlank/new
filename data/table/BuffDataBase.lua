@@ -1,0 +1,22 @@
+-- FILE: BUFF表.xlsm SHEET: Sheet1 KEY: buffid*10000 + level
+BuffDataBase = {
+[500010001]={["buffid"]=50001,["level"]=1,["name"]="嘲讽",["type"]=1,["subtype"]=1,["buffflag"]=1,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="8101_6401_6501"},
+[500020001]={["buffid"]=50002,["level"]=1,["name"]="加血",["type"]=2,["subtype"]=2,["buffflag"]=0,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="4601"},
+[500030001]={["buffid"]=50003,["level"]=1,["name"]="无敌",["type"]=3,["subtype"]=3,["buffflag"]=0,["timeaddflag"]=0,["removeflag"]=0,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="6701_6801"},
+[500040001]={["buffid"]=50004,["level"]=1,["name"]="眩晕",["type"]=1,["subtype"]=4,["buffflag"]=1,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="6401_6501"},
+[500050001]={["buffid"]=50005,["level"]=1,["name"]="减伤",["type"]=3,["subtype"]=5,["buffflag"]=0,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="5901"},
+[500060001]={["buffid"]=50006,["level"]=1,["name"]="恐惧",["type"]=1,["subtype"]=6,["buffflag"]=1,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="8001_6401_6501"},
+[500070001]={["buffid"]=50007,["level"]=1,["name"]="沉默",["type"]=1,["subtype"]=7,["buffflag"]=1,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="6501"},
+[500080001]={["buffid"]=50008,["level"]=1,["name"]="免控",["type"]=3,["subtype"]=8,["buffflag"]=0,["timeaddflag"]=0,["removeflag"]=0,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="6901"},
+[500090001]={["buffid"]=50009,["level"]=1,["name"]="隐身",["type"]=3,["subtype"]=9,["buffflag"]=0,["timeaddflag"]=0,["removeflag"]=0,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="7901"},
+[500100001]={["buffid"]=50010,["level"]=1,["name"]="流血",["type"]=2,["subtype"]=10,["buffflag"]=1,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="3430"},
+[500110001]={["buffid"]=50011,["level"]=1,["name"]="定身",["type"]=1,["subtype"]=11,["buffflag"]=1,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="6401"},
+[500120001]={["buffid"]=50012,["level"]=1,["name"]="减速",["type"]=3,["subtype"]=12,["buffflag"]=1,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="5702"},
+[500130001]={["buffid"]=50013,["level"]=1,["name"]="魔法盾",["type"]=3,["subtype"]=13,["buffflag"]=0,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="5901_6301"},
+[500140001]={["buffid"]=50014,["level"]=1,["name"]="持续暗伤害",["type"]=2,["subtype"]=10,["buffflag"]=1,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="7701"},
+[500150001]={["buffid"]=50015,["level"]=1,["name"]="暴烈狂魔",["type"]=3,["subtype"]=10,["buffflag"]=0,["timeaddflag"]=0,["removeflag"]=0,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="1152_5901"},
+[500160001]={["buffid"]=50016,["level"]=1,["name"]="蚀皮腐骨",["type"]=3,["subtype"]=10,["buffflag"]=1,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="687_1670_2430_2630"},
+[500170001]={["buffid"]=50017,["level"]=1,["name"]="冥念蚀魂",["type"]=2,["subtype"]=10,["buffflag"]=1,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="5701_7701"},
+[500180001]={["buffid"]=50018,["level"]=1,["name"]="荆棘丛生",["type"]=2,["subtype"]=10,["buffflag"]=1,["timeaddflag"]=0,["removeflag"]=3,["offlineflag"]=0,["save"]=1,["noremove"]=0,["send9"]=1,["cancel"]=0,["bufftime"]=10,["effectid"]="6401_7601"},
+}
+BuffDataBase.query = function(buffid, level) return BuffDataBase[buffid * 10000 + level] end

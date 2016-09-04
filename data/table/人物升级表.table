@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="UpgradeDataBase" file="人物升级表.xlsm">
+		<key code="dwLevel" />
+		<field type="uint32" column="人物等级" code="dwLevel" />
+		<field type="uint64" column="升级经验" code="qwExp" />
+		<field type="uint32" column="最大生命" code="dwMaxHp" />
+		<field type="uint32" column="最大体力" code="dwMaxSp" />
+		<field type="uint32" column="最大精力" code="dwMaxSpirit" />
+		<field type="uint32" column="属性点数" code="dwPropPoint" />
+		<field type="string" column="升级特效" code="strEffect" />
+		<field type="uint32" column="银币上限" code="dwMoneyLimit" />
+		<field type="uint32" column="引导ID" code="dwIntroID" />
+		<field type="uint32" column="铜币上限" code="dwMoneyTicketLimit" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="LevelDataBase" file="人物升级表.xlsm">
+		<key code="level" />
+		<field type="uint32" code="level" column="人物等级" />
+		<field type="uint32" code="exp" column="升级经验" />
+		<field type="uint32" code="maxhp" column="最大生命" />
+		<field type="uint32" code="maxsp" column="最大体力" />
+		<field type="uint32" code="maxjl" column="最大精力" />
+		<field type="uint32" code="ppoint" column="属性点数" />
+		<field type="uint32" code="spoint" column="技能点数" />
+		<field type="uint32" code="maxmoney" column="银币上限" />
+		<field type="uint32" code="maxmoneyticket" column="铜币上限" />
+	</output>
+</table>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="DemonGetDataBase" file="奇异兽扭蛋表.xlsm">
+		<key code="dwGetType" />
+		<key code="dwQuality" />
+		<field type="uint32" column="获取类型" code="dwGetType" />
+		<field type="uint32" column="品质" code="dwQuality" />
+		<field type="string" column="宠物库" code="strDemonLibrary" />
+		<field type="uint32" column="概率" code="dwRatio" />
+		<field type="uint32" column="费用" code="dwPrice" />
+		<field type="uint32" column="费用类型" code="dwPriceType" />
+		<field type="uint32" column="连抽折扣" code="dwDiscount" />
+		<field type="uint32" column="免费次数" code="dwFreeCount" />
+		<field type="string" column="免费时间间隔" code="strFreeTimes" />
+		<field type="uint32" column="免费次数重置周期" code="strFreeCountResetType" />
+		<field type="uint32" column="免费时间间隔单位" code="strFreeTimeType" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="DemonGetDataBase" file="奇异兽扭蛋表.xlsm">
+		<key code="gettype" />
+		<key code="quality" />
+		<field type="uint32" column="获取类型" code="gettype" />
+		<field type="uint32" column="品质" code="quality" />
+		<field type="string" column="宠物库" code="demonlibrary" size="256">
+			<regex><![CDATA[^([^,]+,)*$]]></regex>
+		</field>
+		<field type="uint32" column="概率" code="ratio" />
+		<field type="uint32" column="费用" code="price" />
+		<field type="uint32" column="费用类型" code="pricetype" />
+		<field type="uint32" column="连抽折扣" code="discount" />
+		<field type="uint32" column="免费次数" code="freecount" />
+		<field type="string" column="免费时间间隔" code="freetimes" size="256">
+			<regex><![CDATA[^([^,]+,)*$]]></regex>
+		</field>
+		<field type="uint32" column="免费次数重置周期" code="freecountresettype" />
+		<field type="uint32" column="免费时间间隔单位" code="freetimetype" />
+	</output>
+</table>

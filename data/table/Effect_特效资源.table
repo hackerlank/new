@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="FxResDataBase" file="Effect_特效资源.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="编号" code="dwID" />
+		<field type="string" column="目标播放动作" code="targetAniName" />
+		<field type="int32" column="动作播放次数" code="playAniTime" />
+		<field type="uint32" column="资源路径" code="resPath" />
+		<field type="uint32" column="跟随方式" code="flowType" />
+		<field type="uint32" column="目标" code="effectTarget" />
+		<field type="uint32" column="技能编号" code="skillID" />
+		<field type="string" column="挂接点" code="attachNode" />
+		<field column="偏移位置" code="offset" type="array">
+			<field type="float" />
+		</field>
+		<field column="旋转" code="rotate" type="array">
+			<field type="float" />
+		</field>
+	</output>
+
+</table>

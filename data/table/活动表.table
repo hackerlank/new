@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="ActionDatabase" file="活动表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="ID" code="dwID" />
+		<field type="uint32" column="任务ID" code="dwTaskID" />
+		<field type="string" column="活动名称" code="strName" />
+		<field type="uint32" column="类型" code="dwType" />
+		<field type="uint32" column="等级下限" code="dwMinLevel" />
+		<field type="uint32" column="等级上限" code="dwMaxLevel" />
+		<field type="uint32" column="时间类型" code="dwTimeType" />
+		<field type="string" column="开始时间" code="strBeginTime">
+			<regex><![CDATA[^\d\d-\d\d-\d\d-\d\d$]]></regex>
+		</field>
+		<field type="string" column="结束时间" code="strEndTime">
+			<regex><![CDATA[^\d\d-\d\d-\d\d-\d\d$]]></regex>
+		</field>
+		<field type="string" column="奖励" code="strBonus" />
+		<field type="string" column="描述" code="strDesc" />
+		<field type="string" column="图标" code="dwIcon" />
+		<field type="string" column="活动日期" code="strActionDay">
+			<regex><![CDATA[^[0-7](-[0-7]){6}$]]></regex>
+		</field>
+		<field type="uint32" column="单次活跃度" code="dwActivePoint" />
+		<field type="uint32" column="推荐" code="dwRecommend" />
+		<field type="string" column="时间及体力消耗" code="strTimeAndVigorConsume" />
+		<field type="uint32" column="活动归属" code="dwOwnerType" />
+	</output>
+	<output sheet="Sheet1" type="protobuf" code="AchievementDatabase" file="活动表.xlsm">
+		<!-- <key code="dwTaskID" /> -->
+		<field type="uint32" column="任务ID" code="dwTaskID" />
+		<field type="string" column="活动名称" code="strName" />
+		<field type="uint32" column="类型" code="dwType" />
+		<field type="string" column="奖励" code="strBonus" />
+		<field type="string" column="描述" code="strDesc" />
+		<field type="uint32" column="图标" code="dwIcon" />
+		<field type="uint32" column="任务总步骤数" code="dwNum" />
+	</output>
+</table>

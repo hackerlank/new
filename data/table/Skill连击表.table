@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="SkillDoubleHitDataBase" file="Skill连击表.xlsm">
+		<key code="skillid" />
+		<field type="uint32" column="技能ID" code="skillid" />
+		<field type="uint32" column="后续技能ID" code="nextskillid" />
+		<field type="uint32" column="开始技能ID" code="beginskillid" />
+		<field type="uint32" column="连击失效时间" code="doublehitend" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="SkillDoubleHitDataBase" file="Skill连击表.xlsm">
+		<key code="skillid" />
+		<field type="uint32" column="技能ID" code="skillid" />
+		<field type="uint32" column="后续技能ID" code="nextskillid" />
+		<field type="uint32" column="开始技能ID" code="beginskillid" />
+		<field type="uint32" column="连击失效时间" code="doublehitend" />
+		<field type="uint32" column="基础伤害系数" code="basedamageratio" />
+	</output>
+</table>

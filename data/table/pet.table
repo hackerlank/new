@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="战魂" type="protobuf" code="PetDataBase" file="Pet_战魂表.xlsm">
+		<key code="petID" />
+		<field type="uint32" column="宠物ID" code="petID" />
+		<field type="string" column="种族名称" code="petName" />
+		<field type="uint32" column="图包" code="altasID" />
+		<field type="uint32" column="战魂类型" code="petType" />
+		<field type="uint32" column="品质" code="petQuality" />
+		<field type="uint32" column="携带等级" code="carryLevel" />
+		<field type="uint32" column="普攻技能" code="generalAttackSkill" />
+		<field type="string" column="天赋" code="PetTalent" >
+			<regex><![CDATA[[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*;[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*;[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*;[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*;[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*\w[0-9]\d*]]></regex>
+		</field>
+	</output>
+	
+	<output sheet="归元" type="protobuf" code="PetGuiYuanDataBase" file="Pet_战魂表.xlsm">
+		<key code="quality" />
+		<key code="growStatus" />
+		<field type="uint32" column="ID" code="ID" />
+		<field type="uint32" column="宠物品质" code="quality" />
+		<field type="uint32" column="成长状态" code="growStatus" />
+		<field type="uint32" column="提升概率" code="upGradeProbability" />
+	</output>
+	
+	<output sheet="变异" type="protobuf" code="PetBianYiDataBase" file="Pet_战魂表.xlsm">
+		<key code="bianYiID" />
+		<field type="uint32" column="变异ID" code="bianYiID" />
+		<field type="uint32" column="占比区间" code="zhanBiQuJian" />
+		<field type="uint32" column="占比概率" code="zhanBiGaiLv" />
+	</output>
+	
+	<output sheet="引魂" type="protobuf" code="PetYinHunDataBase" file="Pet_战魂表.xlsm">
+		<key code="level" />
+		<field type="uint32" column="修为等级" code="level" />
+		<field type="uint32" column="灵气上限" code="lingQiMax" />
+		<field type="uint32" column="加成比" code="jiaChengBi" />
+	</output>
+	
+	<output sheet="升级" type="protobuf" code="PetUpGradeDataBase" file="Pet_战魂表.xlsm">
+		<key code="level" />
+		<key code="type" />
+		<field type="uint32" column="等级" code="level" />
+		<field type="uint32" column="类型" code="type" />
+		<field type="uint32" column="升级经验" code="upGradeExp" />
+    <field type="uint32" column="力量" code="power" />
+    <field type="uint32" column="体质" code="tizhi" />
+    <field type="uint32" column="敏捷" code="minjie" />
+    <field type="uint32" column="智力" code="zhili" />
+    <field type="uint32" column="精神" code="jingshen" />
+    <field type="uint32" column="生命值上限" code="maxHp" />
+    <field type="uint32" column="潜能" code="potency" />
+	</output>
+
+  <output sheet="技能学习" type="protobuf" code="PetSkillLearnDataBase" file="Pet_战魂表.xlsm">
+    <key code="skillNum" />
+    <field type="uint32" column="技能数量" code="skillNum" />
+    <field type="uint32" column="新技能概率" code="newSkill" />
+    <field type="uint32" column="消耗点劵" code="needDianJuan" />
+  </output>
+
+  <output sheet="性格" type="protobuf" code="PetCharacterDataBase" file="Pet_战魂表.xlsm">
+    <key code="skillID" />
+    <field type="uint32" column="技能ID" code="skillID" />
+    <field type="string" column="名称" code="name" />
+    <field type="uint32" column="胆小概率" code="danXiaoGaiLv" />
+    <field type="uint32" column="谨慎概率" code="jinShenGaiLv" />
+    <field type="uint32" column="精明概率" code="jingMingGaiLv" />
+    <field type="uint32" column="普通概率" code="puTongGaiLv" />
+    <field type="uint32" column="勇敢概率" code="yongGanGaiLv" />
+    <field type="uint32" column="无谋概率" code="wuMouGaiLv" />
+    <field type="uint32" column="忠诚概率" code="zhongChengGaiLv" />
+  </output>
+</table>

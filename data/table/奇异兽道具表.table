@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="PreciousPetDataBase" file="奇异兽道具表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="道具ID" code="dwID" />
+				<field type="string" column="成长率" code="dwGrouthRate">
+			<regex><![CDATA[^\d+-\d+(:\d+-\d+)*$]]></regex>
+		</field>
+		<field type="string" column="名称" code="strName" />
+		<field type="string" column="力量资质" code="strLiliangZ" />
+		<field type="string" column="智力资质" code="strZhiliZ" />
+		<field type="string" column="敏捷资质" code="strMinjieZ" />
+		<field type="string" column="精神资质" code="strJingshenZ" />
+		<field type="string" column="体质资质" code="strTizhiZ" />
+		<field type="string" column="力量资质2" code="strLiliangZ2" />
+		<field type="string" column="智力资质2" code="strZhiliZ2" />
+		<field type="string" column="敏捷资质2" code="strMinjieZ2" />
+		<field type="string" column="精神资质2" code="strJingshenZ2" />
+		<field type="string" column="体质资质2" code="strTizhiZ2" />
+		<field type="string" column="动作文件夹" code="strAniDir" />
+		<field type="uint32" column="模型ID" code="dwModelSet" />
+		<field type="string" column="模型路径" code="strModelPath" />
+		<field type="uint32" column="脸型显示图片" code="dwface" />
+		<field type="string" column="合体显示位置" code="strShowPos" />
+		<field type="string" column="品质颜色" code="strColor">
+			<regex><![CDATA[^1-0x[0-9a-fA-F]{8};2-0x[0-9a-fA-F]{8};3-0x[0-9a-fA-F]{8};4-0x[0-9a-fA-F]{8};5-0x[0-9a-fA-F]{8}$]]></regex>
+		</field>
+		<field type="uint32" column="宠物类型" code="dwType" />
+		<field type="uint32" column="携带等级" code="dwLimitLevel" />
+		<field type="uint32" column="扭蛋类型" code="dwEggHatchType" />
+		<field type="uint32" column="材料ID" code="dwMaterial" />
+		<field type="uint32" column="白品数量" code="dwMaterialNum" />
+		<field type="uint32" column="货币类型" code="dwMoneyType" />
+		<field type="uint32" column="白品费用" code="dwMoneyCost" />
+		<field type="uint32" column="进化宠物id" code="dwNextId" />		
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="DemonInitData" file="奇异兽道具表.xlsm">
+		<key code="id" />
+		<field type="uint32" code="id" column="道具ID" />
+		<field type="string" size="128" code="growthrates" column="成长率">
+			<regex><![CDATA[^\d+-\d+(:\d+-\d+)*$]]></regex>
+		</field>
+		<field type="string" size="32" code="liliangz1" column="力量资质">
+			<regex><![CDATA[^\d+-\d+$]]></regex>
+		</field>
+		<field type="string" size="32" code="zhiliz1" column="智力资质">
+			<regex><![CDATA[^\d+-\d+$]]></regex>
+		</field>
+		<field type="string" size="32" code="minjiez1" column="敏捷资质">
+			<regex><![CDATA[^\d+-\d+$]]></regex>
+		</field>
+		<field type="string" size="32" code="tizhiz1" column="体质资质">
+			<regex><![CDATA[^\d+-\d+$]]></regex>
+		</field>
+		<field type="string" size="32" code="jingshenz1" column="精神资质">
+			<regex><![CDATA[^\d+-\d+$]]></regex>
+		</field>
+		<field type="string" size="256" code="initskill" column="出生技能">
+			<regex><![CDATA[^(\d+-\d+;)*$]]></regex>
+		</field>
+		<field type="string" size="256" code="levelskill" column="升级技能">
+			<regex><![CDATA[^(\d+-\d+;)*$]]></regex>
+		</field>
+		<field type="uint32" code="type" column="宠物类型" />
+		<field type="uint32" code="buttomZ1" column="宠物资质下限" />
+		<field type="string" size="32" code="liliangz2" column="力量资质2">
+			<regex><![CDATA[^\d+-\d+$]]></regex>
+		</field>
+		<field type="string" size="32" code="zhiliz2" column="智力资质2">
+			<regex><![CDATA[^\d+-\d+$]]></regex>
+		</field>
+		<field type="string" size="32" code="minjiez2" column="敏捷资质2">
+			<regex><![CDATA[^\d+-\d+$]]></regex>
+		</field>
+		<field type="string" size="32" code="tizhiz2" column="体质资质2">
+			<regex><![CDATA[^\d+-\d+$]]></regex>
+		</field>
+		<field type="string" size="32" code="jingshenz2" column="精神资质2">
+			<regex><![CDATA[^\d+-\d+$]]></regex>
+		</field>
+		<field type="uint32" code="buttomZ2" column="宠物资质下限2" />
+		<field type="uint32" code="level" column="携带等级" />
+		<field type="uint32" code="hatchtype" column="扭蛋类型" />
+		<field type="uint32" code="material" column="材料ID" />
+		<field type="uint32" code="materialnum" column="白品数量" />
+		<field type="uint32" code="moneytype" column="货币类型" />
+		<field type="uint32" code="money" column="白品费用" />
+	</output>
+</table>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="PreciousPetLevelBase" file="奇异兽升级表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="等级" code="dwID" />
+		<field type="uint32" column="白色经验" code="exp_white" />
+		<field type="uint32" column="蓝色经验" code="exp_blue"/>
+		<field type="uint32" column="黄色经验" code="exp_yellow"/>
+		<field type="uint32" column="绿色经验" code="exp_green"/>
+		<field type="uint32" column="紫色经验" code="exp_purple"/>
+		<field type="uint32" column="橙色经验" code="exp_orange"/>
+		<field type="uint32" column="白色伤害" code="damge_white" />
+		<field type="uint32" column="蓝色伤害" code="damge_blue"/>
+		<field type="uint32" column="黄色伤害" code="damge_yellow"/>
+		<field type="uint32" column="绿色伤害" code="damge_green"/>
+		<field type="uint32" column="紫色伤害" code="damge_purple"/>
+		<field type="uint32" column="橙色伤害" code="damge_orange"/>
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="DemonLevelUpData" file="奇异兽升级表.xlsm">
+		<key code="level" />
+		<field type="uint32" code="level" column="等级" />
+		<field type="uint32" column="白色经验" code="exp_white" />
+		<field type="uint32" column="蓝色经验" code="exp_blue"/>
+		<field type="uint32" column="黄色经验" code="exp_yellow"/>
+		<field type="uint32" column="绿色经验" code="exp_green"/>
+		<field type="uint32" column="紫色经验" code="exp_purple"/>
+		<field type="uint32" column="橙色经验" code="exp_orange"/>
+		<field type="uint32" column="白色伤害" code="damge_white" />
+		<field type="uint32" column="蓝色伤害" code="damge_blue"/>
+		<field type="uint32" column="黄色伤害" code="damge_yellow"/>
+		<field type="uint32" column="绿色伤害" code="damge_green"/>
+		<field type="uint32" column="紫色伤害" code="damge_purple"/>
+		<field type="uint32" column="橙色伤害" code="damge_orange"/>
+	</output>
+</table>

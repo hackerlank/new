@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="LoveRaceItemDataBase" file="极速狂飙道具表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="道具ID" code="dwID" />
+		<field type="string" column="道具名字" code="strName" />
+		<field type="uint32" column="释放对象" code="dwUseTarget" />
+		<field type="uint32" column="图片" code="dwIcon" />
+		<field type="uint32" column="图标组" code="dwIconGrp" />
+		<field type="string" column="悬浮提示" code="strTips" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="RunningItemDataBase" file="极速狂飙道具表.xlsm">
+		<key code="id" />
+		<field type="uint32" code="id" column="道具ID" />
+		<field type="string" size="32" code="name" column="道具名字" />
+		<field type="uint32" code="target" column="释放对象" />
+		<field type="uint32" code="percent" column="获得概率" />
+	</output>
+</table>

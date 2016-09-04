@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="WingRefinementBase" file="羽翼炼化表.xlsm">
+		<key code="dwLevel" />
+		<field type="uint32" column="炼化等级" code="dwLevel" />
+		<field type="uint32" column="成功几率" code="dwRate" />
+		<field type="uint32" column="失败后等级" code="wdFailedLevel" />
+		<field type="uint32" column="物攻附加" code="dwPDam" />
+		<field type="uint32" column="化攻附加" code="dwMDam" />
+		<field type="uint32" column="物防附加" code="dwPDef" />
+		<field type="uint32" column="化防附加" code="dwMDef" />
+		<field type="uint32" column="生命值附加" code="dwHP" />
+		<field type="uint32" column="需要金钱" code="dwPrice" />
+		<field type="uint32" column="需要个数" code="dwNum" />
+		<field type="uint32" column="需求人物等级" code="dwNeedRoleLevel" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="WingRefinementBase" file="羽翼炼化表.xlsm">
+		<key code="level" />
+		<field type="uint32" code="level" column="炼化等级" />
+		<field type="uint32" code="successrate" column="成功几率" />
+		<field type="uint32" code="falselevel" column="失败后等级" />
+		<field type="uint32" code="pdam" column="物攻附加" />
+		<field type="uint32" code="mdam" column="化攻附加" />
+		<field type="uint32" code="pdef" column="物防附加" />
+		<field type="uint32" code="mdef" column="化防附加" />
+		<field type="uint32" code="maxhp" column="生命值附加" />
+		<field type="uint32" code="needmoney" column="需要金钱" />
+		<field type="uint32" code="neednum" column="需要个数" />
+		<field type="uint32" code="needrolelevel" column="需求人物等级" />
+	</output>
+</table>

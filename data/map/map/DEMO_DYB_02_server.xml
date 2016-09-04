@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Zone />
+  <RelivePosition />
+  <ArmyEquipArea />
+  <NpcRect>
+    <rect id="1" width="10" height="10" x="32" y="35" />
+    <rect id="2" width="5" height="5" x="27" y="60" />
+    <rect id="3" width="5" height="5" x="35" y="66" />
+  </NpcRect>
+  <Npc>
+    <npc id="1" name="小怪" x="37" y="40" num="10" interval="3">
+      <rect id="1" />
+    </npc>
+    <npc id="2" name="大怪" x="30" y="63" num="5" interval="3">
+      <rect id="2" />
+    </npc>
+    <npc id="3" name="人鱼精" x="38" y="69" num="1" interval="3">
+      <rect id="3" />
+    </npc>
+    <npc id="5000" name="新手村方向" x="60" y="31" num="1" angle="140" />
+    <npc id="101" name="任务1" x="47" y="72" num="1" angle="63" />
+    <npc id="102" name="任务2" x="47" y="73" num="1" angle="63" />
+    <npc id="103" name="任务3" x="68" y="48" num="1" angle="102" />
+    <npc id="104" name="任务4" x="68" y="46" num="1" angle="102" />
+    <npc id="105" name="任务5" x="70" y="48" num="1" angle="110" />
+    <npc id="106" name="任务6" x="68" y="50" num="1" angle="110" />
+    <npc id="107" name="任务7" x="22" y="60" num="1" angle="63" />
+    <npc id="108" name="任务8" x="46" y="71" num="1" angle="63" />
+    <npc id="109" name="任务9" x="45" y="72" num="1" angle="63" />
+  </Npc>
+  <Way />
+</Map>

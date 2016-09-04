@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="NpcLostDataBase" file="Npc掉落表.xlsm">
+		<key code="id" />
+		<field type="uint32" code="id" column="NPC编号" />
+		<field type="uint32" code="percent" column="大爆概率" />
+		<field type="string" size="2048" code="group1" column="物品组1">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group2" column="物品组2">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group3" column="物品组3">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group4" column="物品组4">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group5" column="物品组5">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group6" column="物品组6">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group7" column="物品组7">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group8" column="物品组8">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group9" column="物品组9">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group10" column="物品组10">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group11" column="物品组11">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group12" column="物品组12">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group13" column="物品组13">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group14" column="物品组14">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+		<field type="string" size="2048" code="group15" column="物品组15">
+			<regex><![CDATA[^(0|((\d+:){4}(\d+(-\d+){9};)+))$]]></regex>
+		</field>
+	</output>
+</table>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="WingQualityBase" file="羽翼品质表.xlsm">
+		<key code="quality" />
+		<field type="uint32" code="quality" column="羽翼品质" />
+		<field type="uint32" code="spiritlimit" column="总魂点上限" />
+		<field type="uint32" code="onepropertylimit" column="单项属性上限" />
+		<field type="uint32" code="recastmaterialnum" column="重铸材料数量" />
+		<field type="uint32" code="slotnum" column="暗槽数量" />
+		<field type="uint32" code="needrefinelevel" column="升级需求炼化等级" />
+		<field type="uint32" code="needspirit" column="升级需求总魂点" />
+	</output>
+</table>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="EquipLevelDatabase" file="装备升星表.xlsm">
+		<key code="wdID" />
+		<key code="wdLevel" />
+		<field type="uint16" column="强化ID" code="wdID" />
+		<field type="uint16" column="强化等级" code="wdLevel" />
+		<field type="uint16" column="对应成功率" code="strRate" />
+		<field type="uint32" column="物攻" code="dwPDam" />
+		<field type="uint32" column="化攻" code="dwMDam" />
+		<field type="uint32" column="物防" code="dwPDef" />
+		<field type="uint32" column="化防" code="dwMDef" />
+		<field type="uint32" column="生命值" code="dwHP" />
+		<field type="uint32" column="需要金钱" code="dwPrice" />
+		<field type="uint32" column="需求等级增加" code="dwNeedLevel" />
+		<field type="uint32" column="惩罚等级" code="dwLevelDown" />
+		<field type="uint32" column="完美增加几率" code="dwPerfectUpgrade" />
+		<field type="uint32" column="是否会爆" code="dwDestroy" />
+		<field type="uint32" column="消耗材料" code="dwMaterial" />
+		<field type="uint32" column="材料个数" code="dwMaterialnum" />
+		<field type="uint32" column="失败增加几率" code="dwRatedown"  />
+		<field type="uint32" column="失败增加几率时间" code="dwRatedowntime" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="EquipLevelDataBase" file="装备升星表.xlsm">
+		<key code="equipid" />
+		<key code="level" />
+		<field type="uint32" code="equipid" column="强化ID" />
+		<field type="uint32" code="level" column="强化等级" />
+		<field type="uint32" code="success" column="服务器成功率" />
+		<field type="uint32" code="pdam" column="物攻" />
+		<field type="uint32" code="mdam" column="化攻" />
+		<field type="uint32" code="pdef" column="物防" />
+		<field type="uint32" code="mdef" column="化防" />
+		<field type="uint32" code="maxhp" column="生命值" />
+		<field type="uint32" code="needmoney" column="需要金钱" />
+		<field type="uint32" code="punishlevel" column="惩罚等级" />
+		<field type="uint32" code="addneedlevel" column="需求等级增加" />
+		<field type="uint32" code="addrate" column="服务器完美增加" />
+		<field type="uint32" code="remove" column="是否会爆" />
+		<field type="uint32" code="material" column="消耗材料" />
+		<field type="uint32" code="materialnum" column="材料个数" />
+		<field type="uint32" code="ratedown" column="失败增加几率" />
+		<field type="uint32" code="ratedowntime" column="失败增加几率时间" />
+	</output>
+</table>

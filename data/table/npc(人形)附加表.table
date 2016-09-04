@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="NpcAppendDataBase" file="NPC(人形)附加表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="ID" code="dwID" />
+		<field type="uint32" column="职业" code="dwWeapon" />
+		<field type="uint32" column="性别" code="dwFace">
+			<regex><![CDATA[^(0|1|101)$]]></regex>
+		</field>
+		<field type="uint32" column="发色" code="dwHairColor">
+			<!-- <regex><![CDATA[^0x[0-9a-f]{6}$]]></regex> -->
+		</field>
+	</output>
+</table>

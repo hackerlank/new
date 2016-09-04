@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="ArmyEquipMakeDatabase" file="军团装备打造表.xlsm">
+		<key code="dwID" />
+		<key code="dwQuality" />
+		<field type="uint32" column="编号" code="dwID" />
+		<field type="uint32" column="品质" code="dwQuality" />
+		<field type="uint32" column="魔甲材料" code="dwMaterial" />
+		<field type="uint32" column="团资金" code="dwPrice" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="ArmyEquipMakeDataBase" file="军团装备打造表.xlsm">
+		<key code="baseid" />
+		<key code="quality" />
+		<field type="uint32" code="baseid" column="编号" />
+		<field type="uint32" code="quality" column="品质" />
+		<field type="uint32" code="material" column="魔甲材料" />
+		<field type="uint32" code="price" column="团资金" />
+	</output>
+</table>

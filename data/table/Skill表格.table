@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="SkillDatabase" file="Skill表格.xlsm">
+		<key code="wdID" />
+		<key code="wdLevel" />
+		<field type="uint16" column="编号" code="wdID" />
+		<field type="uint16" column="等级" code="wdLevel" />
+		<field type="string" column="名称" code="strName" />
+		<field type="uint32" column="最高等级" code="dwMaxLevel" />
+		<field type="uint32" column="技能类型" code="dwType" />
+		<field type="uint32" column="需求形态" code="dwSkillSatus" />
+		<field type="bool" column="固定位置" code="IsBasic" />
+		<field type="uint32" column="职业类型" code="dwJob" />
+		<field type="uint32" column="攻击距离" code="dwAttackDis" />
+		<field type="uint32" column="释放方式" code="dwUseMethod" />
+		<field type="uint32" column="位移类型" code="dwMoveType" />
+		<field type="uint32" column="技能范围" code="dwRange" />
+		<field type="uint32" column="人物等级" code="dwNeedLevel" />
+		<field type="uint32" column="前提技能" code="dwNeedSkill1" />
+		<field type="uint32" column="前提技能等级" code="dwNeedSkill1Level" />
+		<field type="uint32" column="技能释放需求BUFF" code="dwNeedBuff" />
+		<field type="uint32" column="消耗道具" code="dwNeedItem" />
+		<field type="uint32" column="消耗经验" code="dwExp" />
+		<field type="uint32" column="消耗货币" code="dwMoney" />
+		<field type="uint32" column="冷却时间" code="dwIntervalTime" />
+		<field type="uint32" column="公共冷却" code="dwCommonCDTime" />
+		<field type="uint32" column="公共冷却组" code="dwCommonCDGroup" />
+		<field type="uint32" column="准备时间" code="dwPerpareTime" />
+		<field type="uint32" column="读条时间" code="dwReadTime" />
+		<field type="uint32" column="引导时间" code="dwGuideTime" />
+		<field type="uint32" column="引导间隔时间" code="dwGuideIntervalTime" />
+		<field type="uint32"  column="阵营分类" code="camptype"/>
+		<field type="string" column="描述" code="strDesc" />
+		<field type="string" column="图标路径" code="iconPath" />
+		<field type="uint16" column="硬直时间" code="wdStiffTime" />
+		<field type="uint32" column="受击特效" code="beAttactEffect" />
+		<field type="string" size="128" code="beLinkAttactEffect" column="链式攻击特效">
+			<regex><![CDATA[^0?|(\d+(-\d+)*)$]]></regex>
+		</field>
+		<field type="uint32" column="是否可打断" code="breakType" />
+		<field type="uint32" column="目标类型" code="targetType" />
+		<field type="uint32" column="目标选择" code="targetParam" />
+		<field type="uint32" column="施法类型" code="useSkillType" />
+		<field type="uint32" column="范围类型" code="areaType" />
+		<field type="uint32" column="技能范围" code="skillArea" />
+		<field type="uint32" column="技能范围参数" code="skillAreaParam" />
+		<field type="uint32" column="伤害次数" code="damagetimes" />
+		<field type="uint32" column="伤害间隔" code="hurtinterval" />
+	</output>
+	
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="SkillDataBase" file="Skill表格.xlsm">
+		<key code="skillid" />
+		<key code="level" />
+		<field type="uint16" code="skillid" column="编号" />
+		<field type="string" size="32" code="name" column="名称" />
+		<field type="uint16" code="level" column="等级" />
+		<field type="uint32" code="maxlevel" column="最高等级" />
+		<field type="uint8" code="role" column="职业类型" />
+		<field type="uint8" code="shape" column="需求形态" />
+		<field type="uint8" code="type" column="技能类型" />
+		<field type="uint32" code="range" column="攻击距离" />
+		<field type="uint8" code="aimtype" column="目标类型" />
+		<field type="uint8" code="aimchoose" column="目标选择" />
+		<field type="uint8" code="camptype" column="阵营分类" />
+		<field type="uint8" code="usetype" column="释放方式" />
+		<field type="uint8" code="magictype" column="施法类型" />
+		<field type="uint8" code="areatype" column="范围类型" />
+		<field type="uint8" code="dwrange" column="技能范围" />
+		<field type="uint32" code="dwrangeparm" column="技能范围参数" />
+		<field type="uint8" code="aimmax" column="最大数量" />
+		<field type="uint8" code="attacktype" column="技能伤害类型" />
+		<field type="uint8" code="damagetimes" column="伤害次数" />
+		<field type="uint8" code="canstudy" column="能否学习" />
+		<field type="uint32" code="costprestige" column="消耗经验" />
+		<field type="uint32" code="costmoney" column="消耗货币" />
+		<field type="uint32" code="needlevel" column="人物等级" />
+		<field type="string" size="32" code="costitem" column="消耗道具" />
+		<field type="uint32" code="preskill" column="前提技能" />
+		<field type="uint8" code="preskilllv" column="前提技能等级" />
+		<field type="uint8" code="needbuff" column="技能释放需求BUFF" />
+		<field type="uint32" code="costsp" column="体力消耗" />
+		<field type="uint32" code="costspprob" column="体力消耗百分比" />
+		<field type="uint32" code="coldtime" column="冷却时间" />	
+		<field type="uint32" code="sharecoldtime" column="公共冷却" />
+		<field type="uint8" code="sharecoldgroup" column="公共冷却组" />
+		<field type="uint32" code="preptime" column="准备时间" />
+		<field type="uint32" code="guildtime" column="引导时间" />
+		<field type="uint32" code="guilddistime" column="引导间隔时间" />
+		<field type="uint8" code="canbreak" column="是否可打断" />
+		<field type="uint32" code="breakprob" column="打断概率" />
+		<field type="uint32" code="staytime" column="硬直时间" />
+		<field type="uint8" code="canthit" column="是否必中" />
+		<field type="uint32" code="subdefprob" column="忽略对方防御百分比" />
+		<field type="uint8" code="damagetype" column="伤害类型" />
+		<field type="uint32" code="damageprob" column="伤害百分比" />
+		<field type="uint32" code="damagemin" column="最小伤害" />
+		<field type="uint32" code="damagemax" column="最大伤害" />
+		<field type="uint8" code="effectcond" column="效果条件" />
+		<field type="uint32" code="effectid" column="效果ID" />
+		<field type="uint32" code="addbuffprob" column="附加buff概率" />
+		<field type="string" size="64" code="buff" column="BUFF" />		
+	</output>
+</table>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="WorldLevelBase" file="人类进程表.xlsm">
+		<key code="dwWorldLevel" />
+		<field type="uint32" column="人类进程" code="dwWorldLevel" />
+		<field type="uint32" column="最高等级" code="dwMaxUserLevel" />
+		<field type="uint32" column="血脉总等级" code="dwBloodAllLevel" />
+		<field type="uint32" column="最少天数" code="dwNeedDays" />
+		<field type="uint32" column="宠物最高等级" code="dwMaxDemonLevel" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="WorldLevelBase" file="人类进程表.xlsm">
+		<key code="progress" />
+		<field type="uint32" code="progress" column="人类进程" />
+		<field type="uint32" code="max_user_level" column="最高等级" />
+		<field type="uint32" code="max_all_level" column="血脉总等级" />
+		<field type="uint32" code="min_day" column="最少天数" />
+		<field type="uint32" code="max_demon_level" column="宠物最高等级" />
+	</output>
+</table>

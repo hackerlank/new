@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="CountryBattleDataRank" file="国家战绩表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="序号" code="dwID" />
+		<field type="uint32" column="下区间" code="dwDowm" />
+		<field type="uint32" column="上区间" code="dwUp" />
+		<field type="string" column="描述文字" code="strDesc" />
+		<field type="uint32" column="文字显示颜色" code="dwColor" />
+	</output>
+</table>

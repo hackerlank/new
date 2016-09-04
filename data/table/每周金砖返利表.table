@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="PerWeekGoldBrickDatabase" file="每周金砖返利表.xlsm">
+		<key code="wdWeek" />
+		<field type="uint32" column="周数" code="wdWeek" />
+		<field type="uint32" column="首充返利" code="wdFirstProfit" />
+		<field type="uint32" column="本周返利" code="wdPerWeekProfit" />
+		<field type="uint32" column="已返利总计" code="dwGetProfit" />
+		<field type="uint32" column="返利总计" code="wdTotalProfit" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="WeekGoldBoxBase" file="每周金砖返利表.xlsm">
+		<key code="week" />
+		<field type="uint32" code="week" column="周数" />
+		<field type="uint32" code="firstgold" column="首充返利" />
+		<field type="uint32" code="thisgold" column="本周返利" />
+		<field type="uint32" code="getgold" column="已返利总计" />
+		<field type="uint32" code="totalgold" column="返利总计" />
+	</output>
+</table>

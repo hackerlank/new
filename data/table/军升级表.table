@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="ArmyLevelBase" file="军升级表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="等级" code="dwID" />
+		<field type="uint32" column="升级资金" code="dwmoney" />
+		<field type="uint32" column="升级积分" code="dwnum" />
+		<field type="uint32" column="团数量" code="dwcorpnum" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="ArmyLevelBase" file="军升级表.xlsm">
+		<key code="level" />
+		<field type="uint32" code="level" column="等级" />
+		<field type="uint32" code="dwMoney" column="升级资金" />
+		<field type="uint32" code="dwGrade" column="升级积分" />
+		<field type="uint32" code="dwMaxCorps" column="团数量" />
+	</output>
+</table>

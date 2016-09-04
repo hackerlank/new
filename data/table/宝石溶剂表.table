@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="GemSolventDatabase" file="宝石溶剂表.xlsm">
+		<key code="dwLevel" />
+		<field type="uint32" column="等级" code="dwLevel" />
+		<field type="uint32" column="宝石溶剂ID" code="dwGemSolventID" />
+		<field type="uint32" column="宝石摘除需求数量" code="dwRemoveGemNeedCount" />
+		<field type="uint32" column="宝石进阶升级需求材料ID" code="dwGemAdvancedUpgradeNeedMaterialID" />
+		<field type="uint32" column="宝石进阶需求材料数量" code="dwGemAdvancedNeedMaterialCount" />
+	</output>
+</table>

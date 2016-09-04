@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="BossInfoDataBase" file="BOSS刷新信息表.xlsm">
+		<key code="dwID" />
+		<key code="dwNpcID" />
+		<field type="uint32" column="类型" code="dwID" />
+		<field type="uint32" column="BOSS编号" code="dwNpcID" />
+		<field type="string" column="刷新时间" code="strTime" />
+		<field type="uint32" column="地图ID" code="dwMapID" />
+		<field type="string" column="描述" code="strDesc" />
+		<field type="string" column="地点" code="strLocation" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="BossRefreshInfoBase" file="BOSS刷新信息表.xlsm">
+		<key code="bosstype" />
+		<key code="bossid" />
+		<field type="uint32" code="bosstype" column="类型" />
+		<field type="uint32" code="bossid" column="BOSS编号" />
+		<field type="string" size="256" code="name" column="备注" />
+		<field type="uint32" code="mapid" column="地图ID" />
+	</output>
+</table>

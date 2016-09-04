@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="WingSpiritPieceBase" file="魂性循环表.xlsm">
+		<key code="dwSpiritNum" />
+		<field type="uint32" column="总计魂点组" code="dwSpiritNum" />
+		<field type="uint32" column="魂性循环值" code="dwSpiritPieceNum" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="WingSpiritPieceBase" file="魂性循环表.xlsm">
+		<key code="spiritnum" />
+		<field type="uint32" code="spiritnum" column="总计魂点组" />
+		<field type="uint32" code="spiritpiecenum" column="魂性循环值" />
+	</output>
+</table>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="ResourceDataBase" file="Resource.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="编号" code="dwID" />
+		<field type="string" column="资源路径" code="strPath" />
+	</output>
+</table>

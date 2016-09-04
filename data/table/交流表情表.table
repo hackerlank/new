@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table>
+	<output sheet="Sheet1" type="protobuf" code="UserColEmotionDataBase" file="交流表情表.xlsm">
+		<key code="dwID" />
+		<field type="uint32" column="编号" code="dwID" />
+		<field type="uint8" column="类型" code="byType" />
+		<field type="uint32" column="图标" code="dwIcon" />
+		<field type="string" column="名称" code="strName" />
+		<field type="string" column="说明" code="strDesc" />
+		<field type="uint32" column="声音" code="sound" />
+		<field type="string" column="自己提示" code="str1" />
+		<field type="string" column="对方提示" code="str2" />
+		<field type="string" column="无对象提示" code="str3" />
+	</output>
+	<output sheet="Sheet1" type="tbl" encoding.code="utf-8" encoding.data="utf-8" code="UserColEmotionDataBase" file="交流表情表.xlsm">
+		<field type="uint32" code="id" column="编号" />
+		<field type="uint32" code="consume" column="消耗" />
+		<field type="uint32" code="level" column="需求等级" />
+		<field type="uint32" code="type" column="类型" />
+	</output>
+</table>
